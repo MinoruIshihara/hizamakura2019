@@ -1,0 +1,1591 @@
+﻿Log file open, 11/04/18 08:51:46
+LogInit:Display: Running engine for game: HIZAMAKURA2017
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(172523929) SRandInit(172523929).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.526575
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.03-23.51.47:151][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-23.51.47:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.03-23.51.47:177][  0]LogInit: Computer: DESKTOP-QH1O805
+[2018.11.03-23.51.47:177][  0]LogInit: User: densan
+[2018.11.03-23.51.47:177][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.03-23.51.47:177][  0]LogInit: High frequency timer resolution =3.914058 MHz
+[2018.11.03-23.51.47:177][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.03-23.51.47:177][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-23.51.47:177][  0]LogMemory: Process Physical Memory: 272.48 MB used, 272.48 MB peak
+[2018.11.03-23.51.47:177][  0]LogMemory: Process Virtual Memory: 260.80 MB used, 260.80 MB peak
+[2018.11.03-23.51.47:177][  0]LogMemory: Physical Memory: 4490.89 MB used,  11825.23 MB free, 16316.12 MB total
+[2018.11.03-23.51.47:177][  0]LogMemory: Virtual Memory: 4773.96 MB used,  11825.23 MB free, 134217728.00 MB total
+[2018.11.03-23.51.47:455][  0]LogInit: Using OS detected language (ja-JP).
+[2018.11.03-23.51.47:455][  0]LogInit: Using OS detected locale (ja-JP).
+[2018.11.03-23.51.47:494][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2018.11.03-23.51.49:843][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.03-23.51.49:873][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.03-23.51.49:873][  0]LogD3D11RHI:       8145/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.03-23.51.49:876][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.03-23.51.49:876][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.03-23.51.49:876][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.03-23.51.49:881][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.03-23.51.49:881][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.03-23.51.49:881][  0]LogWindows: EnumDisplayDevices:
+[2018.11.03-23.51.49:881][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.03-23.51.49:881][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-23.51.49:882][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-23.51.49:882][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-23.51.49:882][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.03-23.51.49:882][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.03-23.51.49:882][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.03-23.51.49:882][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.03-23.51.49:882][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.03-23.51.49:898][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.03-23.51.49:920][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.03-23.51.49:974][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/4880/).
+[2018.11.03-23.51.49:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/densan/AppData/Local/Temp/UnrealShaderWorkingDir/3545591C45F31AD9001197B2299CEFF9/'.
+[2018.11.03-23.51.49:974][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.03-23.51.51:745][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.03-23.51.51:807][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.11.03-23.51.51:869][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.03-23.51.51:932][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.11.03-23.51.52:000][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.11.03-23.51.52:064][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.03-23.51.52:127][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.03-23.51.52:190][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.03-23.51.52:250][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.03-23.51.52:316][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-23.51.52:377][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.03-23.51.52:437][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.03-23.51.52:500][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.03-23.51.52:589][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.03-23.51.52:676][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.03-23.51.52:858][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.03-23.51.52:858][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.03-23.51.52:936][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.03-23.51.53:096][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.03-23.51.53:136][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-23.51.53:201][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.03-23.51.53:265][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.03-23.51.53:330][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.03-23.51.53:409][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.03-23.51.53:409][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.03-23.51.54:183][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache: Loaded boot cache 0.37s 90MB C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.03-23.51.54:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.03-23.51.54:572][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.03-23.51.54:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/densan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.03-23.51.54:596][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.03-23.51.54:600][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.03-23.51.54:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-23.51.54:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-23.51.55:470][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-23.51.55:631][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.03-23.51.55:839][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.03-23.51.55:903][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.03-23.51.55:962][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.03-23.51.55:962][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.03-23.51.55:962][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.03-23.51.57:248][  0]LogNetVersion: HIZAMAKURA2017 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3901174432)
+[2018.11.03-23.51.57:348][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.11.03-23.51.57:423][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.047178 seconds
+[2018.11.03-23.51.57:430][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.11.03-23.51.57:430][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.11.03-23.51.57:430][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.03-23.51.57:511][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.03-23.52.02:504][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.03-23.52.02:556][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.03-23.52.03:377][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.03-23.52.04:018][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-23.52.04:083][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-23.52.04:154][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-23.52.04:220][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-23.52.04:607][  0]LogLinker:Warning: ファイル '/Game/FirstPersonBP/FirstPersonOverview' が見つかりません
+[2018.11.03-23.52.04:607][  0]LogLinker:Warning: ファイル '/Game/FirstPersonBP/FirstPersonOverview' が見つかりません
+[2018.11.03-23.52.04:607][  0]LogUObjectGlobals:Warning: オブジェクト 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' が見つかりませんでした
+[2018.11.03-23.52.05:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.03-23.52.06:118][  0]LogEngine: Initializing Engine...
+[2018.11.03-23.52.08:203][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-B5F70FAF
+[2018.11.03-23.52.08:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-23.52.08:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-23.52.08:802][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.03-23.52.08:825][  0]LogInit: XAudio2 using 'スピーカー (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-23.52.08:841][  0]LogInit: FAudioDevice initialized.
+[2018.11.03-23.52.08:896][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.03-23.52.08:911][  0]LogInit: Texture streaming: Enabled
+[2018.11.03-23.52.09:048][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.03-23.52.09:376][  0]LogInit: Transaction tracking system initialized
+[2018.11.03-23.52.09:847][  0]BlueprintLog: New page: エディタの読み込み
+[2018.11.03-23.52.11:246][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2018.11.03-23.52.12:241][  0]LogConsoleResponse:Display: 
+[2018.11.03-23.52.12:651][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.03-23.52.12:651][  0]LogCook:Display: Mobile HDR setting 1
+[2018.11.03-23.52.13:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/' took 0.02s
+[2018.11.03-23.52.14:204][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-23.52.14:205][  0]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-23.52.14:206][  0]LightingResults: New page: ライティングのビルド
+[2018.11.03-23.52.14:271][  0]MapCheck: New page: マップをチェック
+[2018.11.03-23.52.14:271][  0]LightingResults: New page: <何も選択されていません>
+[2018.11.03-23.52.14:726][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-23.52.18:091][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-23.52.18:119][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-23.52.18:218][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 98.181ミリ秒かかりました。
+[2018.11.03-23.52.18:218][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.013
+[2018.11.03-23.52.18:413][  0]LogCollectionManager: Loaded 0 collections in 0.001360 seconds
+[2018.11.03-23.52.18:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.01s
+[2018.11.03-23.52.18:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Developers/densan/Collections/' took 0.01s
+[2018.11.03-23.52.18:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.01s
+[2018.11.03-23.52.18:513][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.11.03-23.52.18:522][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2340 classes and 495 folders.
+[2018.11.03-23.52.18:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.03-23.52.18:923][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.03-23.52.18:993][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.03-23.52.19:151][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.03-23.52.19:163][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2018.11.03-23.52.19:238][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.03-23.52.19:238][  0]LogLoad: (Engine Initialization) Total time: 35.38 seconds
+[2018.11.03-23.52.19:239][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.49 seconds
+[2018.11.03-23.52.19:239][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.11.03-23.52.19:239][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.11.03-23.52.19:281][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2018.11.03-23.52.19:287][  0]LogOcInput: OculusInput pre-init called
+[2018.11.03-23.52.19:287][  0]LogHMD: Starting GearVRController plugin
+[2018.11.03-23.52.19:319][  0]LogAssetRegistry: Asset discovery search completed in 21.9944 seconds
+[2018.11.03-23.52.19:321][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.03-23.52.19:321][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2018.11.03-23.52.19:335][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.03-23.52.19:355][  0]LogSlate: Took 0.004625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.03-23.52.19:373][  0]LogSlate: Took 0.016862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.03-23.52.19:377][  0]LogSlate: Took 0.004358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.03-23.52.19:384][  0]LogSlate: Took 0.003887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.03-23.52.19:540][  0]LogSlate: Took 0.004649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.03-23.52.19:570][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/' took 0.27s
+[2018.11.03-23.52.19:588][  2]LogRenderer: Reallocating scene render targets to support 1080x568 NumSamples 1 (Frame:1).
+[2018.11.03-23.53.19:289][143]LogHttp:Warning: 00000229B258D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.53.19:289][143]LogHttp:Warning: 00000229B258D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.53.19:289][143]LogHttp:Warning: 00000229B258D780: libcurl info message cache 1 (Closing connection 0)
+[2018.11.03-23.54.19:252][338]LogHttp:Warning: 00000229B258E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.54.19:253][338]LogHttp:Warning: 00000229B258E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.54.19:253][338]LogHttp:Warning: 00000229B258E500: libcurl info message cache 1 (Closing connection 1)
+[2018.11.03-23.55.19:261][538]LogHttp:Warning: 00000229B258E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.55.19:261][538]LogHttp:Warning: 00000229B258E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.55.19:261][538]LogHttp:Warning: 00000229B258E080: libcurl info message cache 1 (Closing connection 2)
+[2018.11.03-23.56.19:269][738]LogHttp:Warning: 00000229B258F700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.56.19:269][738]LogHttp:Warning: 00000229B258F700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.56.19:269][738]LogHttp:Warning: 00000229B258F700: libcurl info message cache 1 (Closing connection 3)
+[2018.11.03-23.57.19:266][937]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.57.19:266][937]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.57.19:266][937]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 4)
+[2018.11.03-23.58.19:291][139]LogHttp:Warning: 00000229B258DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.58.19:291][139]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.58.19:291][139]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 1 (Closing connection 5)
+[2018.11.03-23.59.19:620][889]LogHttp:Warning: 00000229B258CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-23.59.19:620][889]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-23.59.19:620][889]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 1 (Closing connection 6)
+[2018.11.04-00.01.19:286][248]LogHttp:Warning: 00000229B258D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.01.19:286][248]LogHttp:Warning: 00000229B258D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.01.19:286][248]LogHttp:Warning: 00000229B258D780: libcurl info message cache 1 (Closing connection 7)
+[2018.11.04-00.02.19:286][428]LogHttp:Warning: 00000229B258C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.02.19:286][428]LogHttp:Warning: 00000229B258C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.02.19:286][428]LogHttp:Warning: 00000229B258C100: libcurl info message cache 1 (Closing connection 8)
+[2018.11.04-00.03.19:287][608]LogHttp:Warning: 00000229B258E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.03.19:287][608]LogHttp:Warning: 00000229B258E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.03.19:287][608]LogHttp:Warning: 00000229B258E500: libcurl info message cache 1 (Closing connection 9)
+[2018.11.04-00.04.19:287][788]LogHttp:Warning: 00000229B258E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.04.19:287][788]LogHttp:Warning: 00000229B258E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.04.19:287][788]LogHttp:Warning: 00000229B258E080: libcurl info message cache 1 (Closing connection 10)
+[2018.11.04-00.05.19:287][968]LogHttp:Warning: 00000229B258F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.05.19:287][968]LogHttp:Warning: 00000229B258F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.05.19:287][968]LogHttp:Warning: 00000229B258F100: libcurl info message cache 1 (Closing connection 11)
+[2018.11.04-00.06.19:288][148]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.06.19:288][148]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.06.19:288][148]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 12)
+[2018.11.04-00.07.19:287][328]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.07.19:287][328]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.07.19:287][328]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 13)
+[2018.11.04-00.08.19:288][508]LogHttp:Warning: 00000229B258FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.08.19:288][508]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.08.19:288][508]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 1 (Closing connection 14)
+[2018.11.04-00.09.19:289][688]LogHttp:Warning: 00000229B258F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.09.19:289][688]LogHttp:Warning: 00000229B258F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.09.19:289][688]LogHttp:Warning: 00000229B258F400: libcurl info message cache 1 (Closing connection 15)
+[2018.11.04-00.10.19:288][868]LogHttp:Warning: 00000229B258EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.10.19:288][868]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.10.19:288][868]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 1 (Closing connection 16)
+[2018.11.04-00.11.19:289][ 48]LogHttp:Warning: 00000229B258C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.11.19:289][ 48]LogHttp:Warning: 00000229B258C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.11.19:289][ 48]LogHttp:Warning: 00000229B258C100: libcurl info message cache 1 (Closing connection 17)
+[2018.11.04-00.12.19:289][228]LogHttp:Warning: 00000229B258D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.12.19:289][228]LogHttp:Warning: 00000229B258D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.12.19:289][228]LogHttp:Warning: 00000229B258D600: libcurl info message cache 1 (Closing connection 18)
+[2018.11.04-00.13.19:289][408]LogHttp:Warning: 00000229B258E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.13.19:289][408]LogHttp:Warning: 00000229B258E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.13.19:289][408]LogHttp:Warning: 00000229B258E980: libcurl info message cache 1 (Closing connection 19)
+[2018.11.04-00.14.19:290][588]LogHttp:Warning: 00000229B258DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.14.19:290][588]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.14.19:290][588]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 1 (Closing connection 20)
+[2018.11.04-00.15.19:290][768]LogHttp:Warning: 00000229B258CA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.15.19:290][768]LogHttp:Warning: 00000229B258CA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.15.19:290][768]LogHttp:Warning: 00000229B258CA00: libcurl info message cache 1 (Closing connection 21)
+[2018.11.04-00.16.19:290][948]LogHttp:Warning: 00000229B258E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.16.19:290][948]LogHttp:Warning: 00000229B258E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.16.19:290][948]LogHttp:Warning: 00000229B258E080: libcurl info message cache 1 (Closing connection 22)
+[2018.11.04-00.17.19:290][128]LogHttp:Warning: 00000229B258EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.17.19:290][128]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.17.19:290][128]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 1 (Closing connection 23)
+[2018.11.04-00.18.19:290][308]LogHttp:Warning: 00000229B258EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.18.19:290][308]LogHttp:Warning: 00000229B258EE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.18.19:290][308]LogHttp:Warning: 00000229B258EE00: libcurl info message cache 1 (Closing connection 24)
+[2018.11.04-00.19.19:291][488]LogHttp:Warning: 00000229B258CA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.19.19:291][488]LogHttp:Warning: 00000229B258CA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.19.19:291][488]LogHttp:Warning: 00000229B258CA00: libcurl info message cache 1 (Closing connection 25)
+[2018.11.04-00.20.19:292][668]LogHttp:Warning: 00000229B258EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.20.19:292][668]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.20.19:292][668]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 1 (Closing connection 26)
+[2018.11.04-00.21.19:291][848]LogHttp:Warning: 00000229B258D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.21.19:291][848]LogHttp:Warning: 00000229B258D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.21.19:291][848]LogHttp:Warning: 00000229B258D000: libcurl info message cache 1 (Closing connection 27)
+[2018.11.04-00.22.19:291][ 28]LogHttp:Warning: 00000229B258C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.22.19:291][ 28]LogHttp:Warning: 00000229B258C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.22.19:291][ 28]LogHttp:Warning: 00000229B258C100: libcurl info message cache 1 (Closing connection 28)
+[2018.11.04-00.23.19:291][208]LogHttp:Warning: 00000229B258CB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.23.19:291][208]LogHttp:Warning: 00000229B258CB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.23.19:291][208]LogHttp:Warning: 00000229B258CB80: libcurl info message cache 1 (Closing connection 29)
+[2018.11.04-00.24.19:291][388]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.24.19:291][388]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.24.19:291][388]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 30)
+[2018.11.04-00.25.19:291][568]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.25.19:291][568]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.25.19:291][568]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 31)
+[2018.11.04-00.26.19:292][748]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.26.19:292][748]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.26.19:292][748]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 32)
+[2018.11.04-00.27.19:293][928]LogHttp:Warning: 00000229B258E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.27.19:293][928]LogHttp:Warning: 00000229B258E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.27.19:293][928]LogHttp:Warning: 00000229B258E980: libcurl info message cache 1 (Closing connection 33)
+[2018.11.04-00.28.19:293][108]LogHttp:Warning: 00000229B258E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.28.19:293][108]LogHttp:Warning: 00000229B258E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.28.19:293][108]LogHttp:Warning: 00000229B258E500: libcurl info message cache 1 (Closing connection 34)
+[2018.11.04-00.29.19:293][288]LogHttp:Warning: 00000229B258E200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.29.19:294][288]LogHttp:Warning: 00000229B258E200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.29.19:294][288]LogHttp:Warning: 00000229B258E200: libcurl info message cache 1 (Closing connection 35)
+[2018.11.04-00.30.19:294][468]LogHttp:Warning: 00000229B258CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.30.19:294][468]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.30.19:294][468]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 1 (Closing connection 36)
+[2018.11.04-00.31.19:294][648]LogHttp:Warning: 00000229B258E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.31.19:294][648]LogHttp:Warning: 00000229B258E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.31.19:294][648]LogHttp:Warning: 00000229B258E800: libcurl info message cache 1 (Closing connection 37)
+[2018.11.04-00.32.19:294][828]LogHttp:Warning: 00000229B258DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.32.19:294][828]LogHttp:Warning: 00000229B258DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.32.19:294][828]LogHttp:Warning: 00000229B258DC00: libcurl info message cache 1 (Closing connection 38)
+[2018.11.04-00.33.19:295][  8]LogHttp:Warning: 00000229B258C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.33.19:295][  8]LogHttp:Warning: 00000229B258C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.33.19:295][  8]LogHttp:Warning: 00000229B258C580: libcurl info message cache 1 (Closing connection 39)
+[2018.11.04-00.34.19:295][188]LogHttp:Warning: 00000229B258EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.34.19:295][188]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.34.19:295][188]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 1 (Closing connection 40)
+[2018.11.04-00.35.19:294][368]LogHttp:Warning: 00000229B258C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.35.19:294][368]LogHttp:Warning: 00000229B258C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.35.19:294][368]LogHttp:Warning: 00000229B258C100: libcurl info message cache 1 (Closing connection 41)
+[2018.11.04-00.36.19:295][548]LogHttp:Warning: 00000229B258D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.36.19:295][548]LogHttp:Warning: 00000229B258D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.36.19:295][548]LogHttp:Warning: 00000229B258D780: libcurl info message cache 1 (Closing connection 42)
+[2018.11.04-00.37.19:295][728]LogHttp:Warning: 00000229B258E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.37.19:295][728]LogHttp:Warning: 00000229B258E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.37.19:295][728]LogHttp:Warning: 00000229B258E980: libcurl info message cache 1 (Closing connection 43)
+[2018.11.04-00.38.19:296][908]LogHttp:Warning: 00000229B258F580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.38.19:296][908]LogHttp:Warning: 00000229B258F580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.38.19:296][908]LogHttp:Warning: 00000229B258F580: libcurl info message cache 1 (Closing connection 44)
+[2018.11.04-00.39.19:296][ 88]LogHttp:Warning: 00000229B258EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.39.19:296][ 88]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.39.19:296][ 88]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 1 (Closing connection 45)
+[2018.11.04-00.40.19:296][268]LogHttp:Warning: 00000229B258DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.40.19:296][268]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.40.19:296][268]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 1 (Closing connection 46)
+[2018.11.04-00.41.19:296][448]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.41.19:296][448]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.41.19:296][448]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 47)
+[2018.11.04-00.42.19:297][628]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.42.19:297][628]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.42.19:297][628]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 48)
+[2018.11.04-00.43.19:297][808]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.43.19:297][808]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.43.19:297][808]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 49)
+[2018.11.04-00.44.19:297][988]LogHttp:Warning: 00000229B258C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.44.19:297][988]LogHttp:Warning: 00000229B258C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.44.19:297][988]LogHttp:Warning: 00000229B258C580: libcurl info message cache 1 (Closing connection 50)
+[2018.11.04-00.45.19:298][168]LogHttp:Warning: 00000229B258E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.45.19:298][168]LogHttp:Warning: 00000229B258E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.45.19:298][168]LogHttp:Warning: 00000229B258E980: libcurl info message cache 1 (Closing connection 51)
+[2018.11.04-00.46.19:298][348]LogHttp:Warning: 00000229B258CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.46.19:298][348]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.46.19:298][348]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 1 (Closing connection 52)
+[2018.11.04-00.47.19:299][528]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.47.19:299][528]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.47.19:299][528]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 53)
+[2018.11.04-00.48.19:299][708]LogHttp:Warning: 00000229B258E380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.48.19:299][708]LogHttp:Warning: 00000229B258E380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.48.19:299][708]LogHttp:Warning: 00000229B258E380: libcurl info message cache 1 (Closing connection 54)
+[2018.11.04-00.49.19:299][888]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.49.19:299][888]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.49.19:299][888]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 55)
+[2018.11.04-00.50.19:300][ 68]LogHttp:Warning: 00000229B258D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.50.19:300][ 68]LogHttp:Warning: 00000229B258D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.50.19:300][ 68]LogHttp:Warning: 00000229B258D600: libcurl info message cache 1 (Closing connection 56)
+[2018.11.04-00.51.19:299][248]LogHttp:Warning: 00000229B258D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.51.19:299][248]LogHttp:Warning: 00000229B258D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.51.19:299][248]LogHttp:Warning: 00000229B258D780: libcurl info message cache 1 (Closing connection 57)
+[2018.11.04-00.52.19:300][428]LogHttp:Warning: 00000229B258FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.52.19:300][428]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.52.19:300][428]LogHttp:Warning: 00000229B258FA00: libcurl info message cache 1 (Closing connection 58)
+[2018.11.04-00.53.19:300][608]LogHttp:Warning: 00000229B258F580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.53.19:300][608]LogHttp:Warning: 00000229B258F580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.53.19:300][608]LogHttp:Warning: 00000229B258F580: libcurl info message cache 1 (Closing connection 59)
+[2018.11.04-00.54.19:300][788]LogHttp:Warning: 00000229B258D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.54.19:300][788]LogHttp:Warning: 00000229B258D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.54.19:300][788]LogHttp:Warning: 00000229B258D000: libcurl info message cache 1 (Closing connection 60)
+[2018.11.04-00.55.19:301][968]LogHttp:Warning: 00000229B258C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.55.19:301][968]LogHttp:Warning: 00000229B258C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.55.19:301][968]LogHttp:Warning: 00000229B258C100: libcurl info message cache 1 (Closing connection 61)
+[2018.11.04-00.56.19:302][148]LogHttp:Warning: 00000229B258C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.56.19:302][148]LogHttp:Warning: 00000229B258C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.56.19:302][148]LogHttp:Warning: 00000229B258C580: libcurl info message cache 1 (Closing connection 62)
+[2018.11.04-00.57.19:302][328]LogHttp:Warning: 00000229B258E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.57.19:302][328]LogHttp:Warning: 00000229B258E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.57.19:302][328]LogHttp:Warning: 00000229B258E500: libcurl info message cache 1 (Closing connection 63)
+[2018.11.04-00.58.19:302][508]LogHttp:Warning: 00000229B258EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.58.19:302][508]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.58.19:302][508]LogHttp:Warning: 00000229B258EC80: libcurl info message cache 1 (Closing connection 64)
+[2018.11.04-00.59.19:302][688]LogHttp:Warning: 00000229B258E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-00.59.19:302][688]LogHttp:Warning: 00000229B258E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-00.59.19:302][688]LogHttp:Warning: 00000229B258E080: libcurl info message cache 1 (Closing connection 65)
+[2018.11.04-01.00.19:305][868]LogHttp:Warning: 00000229B258FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.00.19:305][868]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.00.19:305][868]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 1 (Closing connection 66)
+[2018.11.04-01.01.19:303][ 48]LogHttp:Warning: 00000229B258EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.01.19:303][ 48]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.01.19:303][ 48]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 1 (Closing connection 67)
+[2018.11.04-01.02.19:304][228]LogHttp:Warning: 00000229B258FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.02.19:304][228]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.02.19:304][228]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 1 (Closing connection 68)
+[2018.11.04-01.03.19:304][408]LogHttp:Warning: 00000229B258E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.03.19:304][408]LogHttp:Warning: 00000229B258E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.03.19:304][408]LogHttp:Warning: 00000229B258E800: libcurl info message cache 1 (Closing connection 69)
+[2018.11.04-01.04.19:304][588]LogHttp:Warning: 00000229B258E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.04.19:304][588]LogHttp:Warning: 00000229B258E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.04.19:304][588]LogHttp:Warning: 00000229B258E800: libcurl info message cache 1 (Closing connection 70)
+[2018.11.04-01.05.19:304][768]LogHttp:Warning: 00000229B258F580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.05.19:304][768]LogHttp:Warning: 00000229B258F580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.05.19:304][768]LogHttp:Warning: 00000229B258F580: libcurl info message cache 1 (Closing connection 71)
+[2018.11.04-01.06.19:304][948]LogHttp:Warning: 00000229B258E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.06.19:304][948]LogHttp:Warning: 00000229B258E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.06.19:304][948]LogHttp:Warning: 00000229B258E500: libcurl info message cache 1 (Closing connection 72)
+[2018.11.04-01.07.19:304][128]LogHttp:Warning: 00000229B258EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.07.19:304][128]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.07.19:304][128]LogHttp:Warning: 00000229B258EF80: libcurl info message cache 1 (Closing connection 73)
+[2018.11.04-01.08.19:305][308]LogHttp:Warning: 00000229B258DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.08.19:305][308]LogHttp:Warning: 00000229B258DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.08.19:305][308]LogHttp:Warning: 00000229B258DC00: libcurl info message cache 1 (Closing connection 74)
+[2018.11.04-01.09.19:305][488]LogHttp:Warning: 00000229B258D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.09.19:305][488]LogHttp:Warning: 00000229B258D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.09.19:305][488]LogHttp:Warning: 00000229B258D600: libcurl info message cache 1 (Closing connection 75)
+[2018.11.04-01.10.19:306][668]LogHttp:Warning: 00000229B258E380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.10.19:306][668]LogHttp:Warning: 00000229B258E380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.10.19:306][668]LogHttp:Warning: 00000229B258E380: libcurl info message cache 1 (Closing connection 76)
+[2018.11.04-01.11.19:307][848]LogHttp:Warning: 00000229B258FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.11.19:307][848]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.11.19:307][848]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 1 (Closing connection 77)
+[2018.11.04-01.12.19:307][ 28]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.12.19:307][ 28]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.12.19:307][ 28]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 78)
+[2018.11.04-01.13.19:307][208]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.13.19:307][208]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.13.19:307][208]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 79)
+[2018.11.04-01.14.19:307][388]LogHttp:Warning: 00000229B258E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.14.19:307][388]LogHttp:Warning: 00000229B258E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.14.19:307][388]LogHttp:Warning: 00000229B258E980: libcurl info message cache 1 (Closing connection 80)
+[2018.11.04-01.15.19:308][568]LogHttp:Warning: 00000229B258DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.15.19:308][568]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.15.19:308][568]LogHttp:Warning: 00000229B258DD80: libcurl info message cache 1 (Closing connection 81)
+[2018.11.04-01.16.19:308][748]LogHttp:Warning: 00000229B258D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.16.19:308][748]LogHttp:Warning: 00000229B258D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.16.19:308][748]LogHttp:Warning: 00000229B258D780: libcurl info message cache 1 (Closing connection 82)
+[2018.11.04-01.17.19:310][928]LogHttp:Warning: 00000229B258FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.17.19:310][928]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.17.19:310][928]LogHttp:Warning: 00000229B258FD00: libcurl info message cache 1 (Closing connection 83)
+[2018.11.04-01.18.19:309][108]LogHttp:Warning: 00000229B258DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.18.19:309][108]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.18.19:309][108]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 1 (Closing connection 84)
+[2018.11.04-01.19.19:309][288]LogHttp:Warning: 00000229B258EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.19.19:309][288]LogHttp:Warning: 00000229B258EE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.19.19:309][288]LogHttp:Warning: 00000229B258EE00: libcurl info message cache 1 (Closing connection 85)
+[2018.11.04-01.20.19:310][468]LogHttp:Warning: 00000229B258E200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.20.19:310][468]LogHttp:Warning: 00000229B258E200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.20.19:310][468]LogHttp:Warning: 00000229B258E200: libcurl info message cache 1 (Closing connection 86)
+[2018.11.04-01.21.19:311][648]LogHttp:Warning: 00000229B258C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.21.19:311][648]LogHttp:Warning: 00000229B258C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.21.19:311][648]LogHttp:Warning: 00000229B258C400: libcurl info message cache 1 (Closing connection 87)
+[2018.11.04-01.22.19:310][828]LogHttp:Warning: 00000229B258CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.22.19:310][828]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.22.19:310][828]LogHttp:Warning: 00000229B258CD00: libcurl info message cache 1 (Closing connection 88)
+[2018.11.04-01.23.19:311][  8]LogHttp:Warning: 00000229B258C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.23.19:311][  8]LogHttp:Warning: 00000229B258C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.23.19:311][  8]LogHttp:Warning: 00000229B258C400: libcurl info message cache 1 (Closing connection 89)
+[2018.11.04-01.24.19:311][188]LogHttp:Warning: 00000229B258DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.24.19:311][188]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.24.19:311][188]LogHttp:Warning: 00000229B258DA80: libcurl info message cache 1 (Closing connection 90)
+[2018.11.04-01.25.19:311][368]LogHttp:Warning: 00000229B258C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.25.19:311][368]LogHttp:Warning: 00000229B258C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.25.19:311][368]LogHttp:Warning: 00000229B258C580: libcurl info message cache 1 (Closing connection 91)
+[2018.11.04-01.26.19:312][548]LogHttp:Warning: 00000229B258CB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.26.19:312][548]LogHttp:Warning: 00000229B258CB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.26.19:312][548]LogHttp:Warning: 00000229B258CB80: libcurl info message cache 1 (Closing connection 92)
+[2018.11.04-01.27.19:484][980]LogHttp:Warning: 00000229B2DB2F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.27.19:484][980]LogHttp:Warning: 00000229B2DB2F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.27.19:484][980]LogHttp:Warning: 00000229B2DB2F80: libcurl info message cache 1 (Closing connection 93)
+[2018.11.04-01.28.19:484][160]LogHttp:Warning: 00000229B2DB0880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.28.19:484][160]LogHttp:Warning: 00000229B2DB0880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.28.19:484][160]LogHttp:Warning: 00000229B2DB0880: libcurl info message cache 1 (Closing connection 94)
+[2018.11.04-01.29.19:485][340]LogHttp:Warning: 00000229ABBFB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.29.19:485][340]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.29.19:485][340]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 1 (Closing connection 95)
+[2018.11.04-01.30.19:485][520]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.30.19:485][520]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.30.19:485][520]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 96)
+[2018.11.04-01.31.19:485][700]LogHttp:Warning: 00000229ABBF9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.31.19:485][700]LogHttp:Warning: 00000229ABBF9780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.31.19:486][700]LogHttp:Warning: 00000229ABBF9780: libcurl info message cache 1 (Closing connection 97)
+[2018.11.04-01.32.19:487][880]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.32.19:487][880]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.32.19:487][880]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 98)
+[2018.11.04-01.33.19:486][ 60]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.33.19:486][ 60]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.33.19:486][ 60]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 99)
+[2018.11.04-01.34.19:486][240]LogHttp:Warning: 00000229ABBFAC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.34.19:486][240]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.34.19:486][240]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 1 (Closing connection 100)
+[2018.11.04-01.35.19:486][420]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.35.19:487][420]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.35.19:487][420]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 101)
+[2018.11.04-01.36.19:486][600]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.36.19:486][600]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.36.19:486][600]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 102)
+[2018.11.04-01.37.19:488][780]LogHttp:Warning: 00000229ABBFA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.37.19:488][780]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.37.19:488][780]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 1 (Closing connection 103)
+[2018.11.04-01.38.19:486][960]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.38.19:486][960]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.38.19:486][960]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 104)
+[2018.11.04-01.39.19:487][140]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.39.19:487][140]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.39.19:487][140]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 105)
+[2018.11.04-01.40.19:487][320]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.40.19:487][320]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.40.19:487][320]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 106)
+[2018.11.04-01.41.19:489][500]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.41.19:489][500]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.41.19:489][500]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 107)
+[2018.11.04-01.42.19:487][680]LogHttp:Warning: 00000229ABBFAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.42.19:487][680]LogHttp:Warning: 00000229ABBFAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.42.19:487][680]LogHttp:Warning: 00000229ABBFAB00: libcurl info message cache 1 (Closing connection 108)
+[2018.11.04-01.43.19:488][860]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.43.19:488][860]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.43.19:488][860]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 109)
+[2018.11.04-01.44.19:488][ 40]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.44.19:488][ 40]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.44.19:488][ 40]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 110)
+[2018.11.04-01.45.19:489][220]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.45.19:489][220]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.45.19:489][220]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 111)
+[2018.11.04-01.46.19:489][400]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.46.19:489][400]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.46.19:489][400]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 112)
+[2018.11.04-01.47.19:491][580]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.47.19:491][580]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.47.19:491][580]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 113)
+[2018.11.04-01.48.19:490][760]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.48.19:490][760]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.48.19:490][760]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 114)
+[2018.11.04-01.49.19:489][940]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.49.19:489][940]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.49.19:489][940]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 115)
+[2018.11.04-01.50.19:490][120]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.50.19:490][120]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.50.19:490][120]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 116)
+[2018.11.04-01.51.19:490][300]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.51.19:490][300]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.51.19:490][300]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 117)
+[2018.11.04-01.52.19:490][480]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.52.19:490][480]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.52.19:490][480]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 118)
+[2018.11.04-01.53.19:491][660]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.53.19:491][660]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.53.19:491][660]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 119)
+[2018.11.04-01.54.19:490][840]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.54.19:490][840]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.54.19:490][840]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 120)
+[2018.11.04-01.55.19:490][ 20]LogHttp:Warning: 00000229ABBFB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.55.19:490][ 20]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.55.19:490][ 20]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 1 (Closing connection 121)
+[2018.11.04-01.56.19:492][200]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.56.19:492][200]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.56.19:492][200]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 122)
+[2018.11.04-01.57.19:492][380]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.57.19:492][380]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.57.19:492][380]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 123)
+[2018.11.04-01.58.19:492][560]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.58.19:492][560]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.58.19:492][560]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 124)
+[2018.11.04-01.59.19:493][740]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-01.59.19:493][740]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-01.59.19:493][740]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 125)
+[2018.11.04-02.00.19:493][920]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.00.19:493][920]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.00.19:493][920]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 126)
+[2018.11.04-02.01.19:493][100]LogHttp:Warning: 00000229ABBF9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.01.19:493][100]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.01.19:494][100]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 1 (Closing connection 127)
+[2018.11.04-02.02.19:493][280]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.02.19:493][280]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.02.19:493][280]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 128)
+[2018.11.04-02.03.19:494][460]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.03.19:494][460]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.03.19:494][460]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 129)
+[2018.11.04-02.04.19:493][640]LogHttp:Warning: 00000229ABBFA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.04.19:493][640]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.04.19:493][640]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 1 (Closing connection 130)
+[2018.11.04-02.05.19:495][820]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.05.19:495][820]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.05.19:495][820]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 131)
+[2018.11.04-02.06.19:494][  0]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.06.19:494][  0]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.06.19:494][  0]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 132)
+[2018.11.04-02.07.19:494][180]LogHttp:Warning: 00000229ABBFA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.07.19:494][180]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.07.19:494][180]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 1 (Closing connection 133)
+[2018.11.04-02.08.19:495][360]LogHttp:Warning: 00000229ABBFB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.08.19:495][360]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.08.19:495][360]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 1 (Closing connection 134)
+[2018.11.04-02.09.19:495][540]LogHttp:Warning: 00000229ABBFA680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.09.19:495][540]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.09.19:495][540]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 1 (Closing connection 135)
+[2018.11.04-02.10.19:496][720]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.10.19:496][720]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.10.19:496][720]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 136)
+[2018.11.04-02.11.19:496][900]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.11.19:496][900]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.11.19:496][900]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 137)
+[2018.11.04-02.12.19:495][ 80]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.12.19:495][ 80]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.12.19:495][ 80]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 138)
+[2018.11.04-02.13.19:496][260]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.13.19:496][260]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.13.19:496][260]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 139)
+[2018.11.04-02.14.19:496][440]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.14.19:496][440]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.14.19:496][440]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 140)
+[2018.11.04-02.15.19:496][620]LogHttp:Warning: 00000229ABBFB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.15.19:496][620]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.15.19:496][620]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 1 (Closing connection 141)
+[2018.11.04-02.16.19:497][800]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.16.19:497][800]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.16.19:497][800]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 142)
+[2018.11.04-02.17.19:498][980]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.17.19:498][980]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.17.19:498][980]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 143)
+[2018.11.04-02.18.19:498][160]LogHttp:Warning: 00000229ABBFA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.18.19:498][160]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.18.19:498][160]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 1 (Closing connection 144)
+[2018.11.04-02.19.19:499][340]LogHttp:Warning: 00000229ABBFA680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.19.19:499][340]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.19.19:499][340]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 1 (Closing connection 145)
+[2018.11.04-02.20.19:498][520]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.20.19:498][520]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.20.19:498][520]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 146)
+[2018.11.04-02.21.19:498][700]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.21.19:498][700]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.21.19:498][700]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 147)
+[2018.11.04-02.22.19:499][880]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.22.19:499][880]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.22.19:499][880]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 148)
+[2018.11.04-02.23.19:500][ 60]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.23.19:500][ 60]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.23.19:500][ 60]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 149)
+[2018.11.04-02.24.19:499][240]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.24.19:499][240]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.24.19:499][240]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 150)
+[2018.11.04-02.25.19:499][420]LogHttp:Warning: 00000229ABBFB700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.25.19:499][420]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.25.19:499][420]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 1 (Closing connection 151)
+[2018.11.04-02.26.19:499][600]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.26.19:499][600]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.26.19:499][600]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 152)
+[2018.11.04-02.27.19:501][780]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.27.19:501][780]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.27.19:501][780]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 153)
+[2018.11.04-02.28.19:500][960]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.28.19:500][960]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.28.19:500][960]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 154)
+[2018.11.04-02.29.19:502][140]LogHttp:Warning: 00000229ABBFAC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.29.19:502][140]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.29.19:502][140]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 1 (Closing connection 155)
+[2018.11.04-02.30.19:501][320]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.30.19:501][320]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.30.19:501][320]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 156)
+[2018.11.04-02.31.19:503][500]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.31.19:503][500]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.31.19:503][500]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 157)
+[2018.11.04-02.32.19:501][680]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.32.19:501][680]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.32.19:501][680]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 158)
+[2018.11.04-02.33.19:503][860]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.33.19:503][860]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.33.19:503][860]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 159)
+[2018.11.04-02.34.19:502][ 40]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.34.19:502][ 40]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.34.19:502][ 40]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 160)
+[2018.11.04-02.35.19:504][220]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.35.19:504][220]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.35.19:504][220]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 161)
+[2018.11.04-02.36.19:502][400]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.36.19:502][400]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.36.19:502][400]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 162)
+[2018.11.04-02.37.19:503][580]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.37.19:503][580]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.37.19:503][580]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 163)
+[2018.11.04-02.38.19:503][760]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.38.19:503][760]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.38.19:503][760]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 164)
+[2018.11.04-02.39.19:503][940]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.39.19:503][940]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.39.19:503][940]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 165)
+[2018.11.04-02.40.19:504][120]LogHttp:Warning: 00000229ABBFB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.40.19:504][120]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.40.19:504][120]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 1 (Closing connection 166)
+[2018.11.04-02.41.19:504][300]LogHttp:Warning: 00000229ABBFA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.41.19:504][300]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.41.19:504][300]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 1 (Closing connection 167)
+[2018.11.04-02.42.19:504][480]LogHttp:Warning: 00000229ABBFA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.42.19:504][480]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.42.19:504][480]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 1 (Closing connection 168)
+[2018.11.04-02.43.19:505][660]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.43.19:505][660]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.43.19:505][660]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 169)
+[2018.11.04-02.44.19:506][840]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.44.19:506][840]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.44.19:506][840]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 170)
+[2018.11.04-02.45.19:505][ 20]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.45.19:505][ 20]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.45.19:505][ 20]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 171)
+[2018.11.04-02.46.19:505][200]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.46.19:505][200]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.46.19:505][200]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 172)
+[2018.11.04-02.47.19:506][380]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.47.19:506][380]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.47.19:506][380]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 173)
+[2018.11.04-02.48.19:506][560]LogHttp:Warning: 00000229ABBFA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.48.19:506][560]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.48.19:506][560]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 1 (Closing connection 174)
+[2018.11.04-02.49.19:506][740]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.49.19:506][740]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.49.19:506][740]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 175)
+[2018.11.04-02.50.19:506][920]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.50.19:506][920]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.50.19:506][920]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 176)
+[2018.11.04-02.51.19:506][100]LogHttp:Warning: 00000229ABBFB700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.51.19:506][100]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.51.19:506][100]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 1 (Closing connection 177)
+[2018.11.04-02.52.19:506][280]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.52.19:506][280]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.52.19:506][280]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 178)
+[2018.11.04-02.53.19:507][460]LogHttp:Warning: 00000229ABBFAC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.53.19:507][460]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.53.19:507][460]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 1 (Closing connection 179)
+[2018.11.04-02.54.19:507][640]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.54.19:507][640]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.54.19:507][640]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 180)
+[2018.11.04-02.55.19:508][820]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.55.19:508][820]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.55.19:508][820]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 181)
+[2018.11.04-02.56.19:507][  0]LogHttp:Warning: 00000229ABBFA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.56.19:507][  0]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.56.19:507][  0]LogHttp:Warning: 00000229ABBFA980: libcurl info message cache 1 (Closing connection 182)
+[2018.11.04-02.57.19:507][180]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.57.19:507][180]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.57.19:507][180]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 183)
+[2018.11.04-02.58.19:508][360]LogHttp:Warning: 00000229ABBFB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.58.19:508][360]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.58.19:508][360]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 1 (Closing connection 184)
+[2018.11.04-02.59.19:508][540]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-02.59.19:508][540]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-02.59.19:508][540]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 185)
+[2018.11.04-03.00.19:508][720]LogHttp:Warning: 00000229ABBFA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.00.19:508][720]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.00.19:508][720]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 1 (Closing connection 186)
+[2018.11.04-03.01.19:509][900]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.01.19:510][900]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.01.19:510][900]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 187)
+[2018.11.04-03.02.19:509][ 80]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.02.19:509][ 80]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.02.19:509][ 80]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 188)
+[2018.11.04-03.03.19:509][260]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.03.19:509][260]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.03.19:509][260]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 189)
+[2018.11.04-03.04.19:509][440]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.04.19:509][440]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.04.19:509][440]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 190)
+[2018.11.04-03.05.19:511][620]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.05.19:511][620]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.05.19:511][620]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 191)
+[2018.11.04-03.06.19:510][800]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.06.19:510][800]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.06.19:510][800]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 192)
+[2018.11.04-03.07.19:510][980]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.07.19:510][980]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.07.19:510][980]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 193)
+[2018.11.04-03.08.19:510][160]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.08.19:510][160]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.08.19:510][160]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 194)
+[2018.11.04-03.09.19:512][340]LogHttp:Warning: 00000229ABBFB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.09.19:512][340]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.09.19:512][340]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 1 (Closing connection 195)
+[2018.11.04-03.10.19:511][520]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.10.19:511][520]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.10.19:511][520]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 196)
+[2018.11.04-03.11.19:511][700]LogHttp:Warning: 00000229ABBF9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.11.19:511][700]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.11.19:511][700]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 1 (Closing connection 197)
+[2018.11.04-03.12.19:511][880]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.12.19:511][880]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.12.19:511][880]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 198)
+[2018.11.04-03.13.19:511][ 60]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.13.19:512][ 60]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.13.19:512][ 60]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 199)
+[2018.11.04-03.14.19:512][240]LogHttp:Warning: 00000229ABBFB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.14.19:512][240]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.14.19:512][240]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 1 (Closing connection 200)
+[2018.11.04-03.15.19:513][420]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.15.19:513][420]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.15.19:513][420]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 201)
+[2018.11.04-03.16.19:513][600]LogHttp:Warning: 00000229ABBF9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.16.19:513][600]LogHttp:Warning: 00000229ABBF9780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.16.19:513][600]LogHttp:Warning: 00000229ABBF9780: libcurl info message cache 1 (Closing connection 202)
+[2018.11.04-03.17.19:514][780]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.17.19:514][780]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.17.19:514][780]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 203)
+[2018.11.04-03.18.19:513][960]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.18.19:513][960]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.18.19:513][960]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 204)
+[2018.11.04-03.19.19:513][140]LogHttp:Warning: 00000229ABBF9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.19.19:513][140]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.19.19:514][140]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 1 (Closing connection 205)
+[2018.11.04-03.20.19:513][320]LogHttp:Warning: 00000229ABBFB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.20.19:513][320]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.20.19:513][320]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 1 (Closing connection 206)
+[2018.11.04-03.21.19:515][500]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.21.19:515][500]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.21.19:515][500]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 207)
+[2018.11.04-03.22.19:514][680]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.22.19:514][680]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.22.19:514][680]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 208)
+[2018.11.04-03.23.19:513][860]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.23.19:513][860]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.23.19:513][860]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 209)
+[2018.11.04-03.24.19:516][ 40]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.24.19:516][ 40]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.24.19:516][ 40]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 210)
+[2018.11.04-03.25.19:516][220]LogHttp:Warning: 00000229ABBF9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.25.19:516][220]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.25.19:516][220]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 1 (Closing connection 211)
+[2018.11.04-03.26.19:515][400]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.26.19:515][400]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.26.19:515][400]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 212)
+[2018.11.04-03.27.19:515][580]LogHttp:Warning: 00000229ABBFAC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.27.19:515][580]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.27.19:515][580]LogHttp:Warning: 00000229ABBFAC80: libcurl info message cache 1 (Closing connection 213)
+[2018.11.04-03.28.19:515][760]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.28.19:515][760]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.28.19:515][760]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 214)
+[2018.11.04-03.29.19:515][940]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.29.19:515][940]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.29.19:515][940]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 215)
+[2018.11.04-03.30.19:516][120]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.30.19:516][120]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.30.19:516][120]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 216)
+[2018.11.04-03.31.19:517][300]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.31.19:517][300]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.31.19:517][300]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 217)
+[2018.11.04-03.32.19:517][480]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.32.19:517][480]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.32.19:517][480]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 218)
+[2018.11.04-03.33.19:518][660]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.33.19:518][660]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.33.19:518][660]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 219)
+[2018.11.04-03.34.19:517][840]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.34.19:517][840]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.34.19:517][840]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 220)
+[2018.11.04-03.35.19:517][ 20]LogHttp:Warning: 00000229ABBF9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.35.19:517][ 20]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.35.19:517][ 20]LogHttp:Warning: 00000229ABBF9480: libcurl info message cache 1 (Closing connection 221)
+[2018.11.04-03.36.19:518][200]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.36.19:518][200]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.36.19:518][200]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 222)
+[2018.11.04-03.37.19:518][380]LogHttp:Warning: 00000229ABBFA680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.37.19:518][380]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.37.19:518][380]LogHttp:Warning: 00000229ABBFA680: libcurl info message cache 1 (Closing connection 223)
+[2018.11.04-03.38.19:518][560]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.38.19:518][560]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.38.19:518][560]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 224)
+[2018.11.04-03.39.19:519][740]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.39.19:519][740]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.39.19:519][740]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 225)
+[2018.11.04-03.40.19:518][920]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.40.19:518][920]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.40.19:518][920]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 226)
+[2018.11.04-03.41.19:520][100]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.41.19:520][100]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.41.19:520][100]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 227)
+[2018.11.04-03.42.19:519][280]LogHttp:Warning: 00000229ABBFA380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.42.19:519][280]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.42.19:519][280]LogHttp:Warning: 00000229ABBFA380: libcurl info message cache 1 (Closing connection 228)
+[2018.11.04-03.43.19:519][460]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.43.19:519][460]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.43.19:519][460]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 229)
+[2018.11.04-03.44.19:519][640]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.44.19:519][640]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.44.19:519][640]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 230)
+[2018.11.04-03.45.19:520][820]LogHttp:Warning: 00000229ABBFAF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.45.19:520][820]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.45.19:520][820]LogHttp:Warning: 00000229ABBFAF80: libcurl info message cache 1 (Closing connection 231)
+[2018.11.04-03.46.19:520][  0]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.46.19:520][  0]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.46.19:520][  0]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 232)
+[2018.11.04-03.47.19:522][180]LogHttp:Warning: 00000229ABBFA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.47.19:522][180]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.47.19:522][180]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 1 (Closing connection 233)
+[2018.11.04-03.48.19:521][360]LogHttp:Warning: 00000229ABBFAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.48.19:522][360]LogHttp:Warning: 00000229ABBFAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.48.19:522][360]LogHttp:Warning: 00000229ABBFAB00: libcurl info message cache 1 (Closing connection 234)
+[2018.11.04-03.49.19:521][540]LogHttp:Warning: 00000229ABBFB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.49.19:521][540]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.49.19:521][540]LogHttp:Warning: 00000229ABBFB880: libcurl info message cache 1 (Closing connection 235)
+[2018.11.04-03.50.19:521][720]LogHttp:Warning: 00000229ABBFB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.50.19:521][720]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.50.19:521][720]LogHttp:Warning: 00000229ABBFB280: libcurl info message cache 1 (Closing connection 236)
+[2018.11.04-03.51.19:522][900]LogHttp:Warning: 00000229ABBF9F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.51.19:522][900]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.51.19:522][900]LogHttp:Warning: 00000229ABBF9F00: libcurl info message cache 1 (Closing connection 237)
+[2018.11.04-03.52.19:522][ 80]LogHttp:Warning: 00000229ABBFB700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.52.19:522][ 80]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.52.19:522][ 80]LogHttp:Warning: 00000229ABBFB700: libcurl info message cache 1 (Closing connection 238)
+[2018.11.04-03.53.19:523][260]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.53.19:523][260]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.53.19:523][260]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 239)
+[2018.11.04-03.54.19:523][440]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.54.19:523][440]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.54.19:523][440]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 240)
+[2018.11.04-03.55.19:523][620]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.55.19:523][620]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.55.19:523][620]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 241)
+[2018.11.04-03.56.19:523][800]LogHttp:Warning: 00000229ABBFA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.56.19:523][800]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.56.19:523][800]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 1 (Closing connection 242)
+[2018.11.04-03.57.19:524][980]LogHttp:Warning: 00000229ABBFB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.57.19:524][980]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.57.19:524][980]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 1 (Closing connection 243)
+[2018.11.04-03.58.19:523][160]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.58.19:523][160]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.58.19:523][160]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 244)
+[2018.11.04-03.59.19:525][340]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-03.59.19:525][340]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-03.59.19:525][340]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 245)
+[2018.11.04-04.00.19:524][520]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.00.19:524][520]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.00.19:524][520]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 246)
+[2018.11.04-04.01.19:525][700]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.01.19:525][700]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.01.19:525][700]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 247)
+[2018.11.04-04.02.19:525][880]LogHttp:Warning: 00000229ABBFB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.02.19:525][880]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.02.19:525][880]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 1 (Closing connection 248)
+[2018.11.04-04.03.19:526][ 60]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.03.19:526][ 60]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.03.19:526][ 60]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 249)
+[2018.11.04-04.04.19:525][240]LogHttp:Warning: 00000229ABBF9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.04.19:525][240]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.04.19:525][240]LogHttp:Warning: 00000229ABBF9A80: libcurl info message cache 1 (Closing connection 250)
+[2018.11.04-04.05.19:525][420]LogHttp:Warning: 00000229ABBFB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.05.19:525][420]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.05.19:525][420]LogHttp:Warning: 00000229ABBFB100: libcurl info message cache 1 (Closing connection 251)
+[2018.11.04-04.06.19:526][600]LogHttp:Warning: 00000229ABBF9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.06.19:526][600]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.06.19:526][600]LogHttp:Warning: 00000229ABBF9D80: libcurl info message cache 1 (Closing connection 252)
+[2018.11.04-04.07.19:526][780]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.07.19:526][780]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.07.19:526][780]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 253)
+[2018.11.04-04.08.19:526][960]LogHttp:Warning: 00000229ABBFAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.08.19:526][960]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.08.19:526][960]LogHttp:Warning: 00000229ABBFAE00: libcurl info message cache 1 (Closing connection 254)
+[2018.11.04-04.09.19:527][140]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.09.19:527][140]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.09.19:527][140]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 255)
+[2018.11.04-04.10.19:527][320]LogHttp:Warning: 00000229ABBFA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.10.19:527][320]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.10.19:527][320]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 1 (Closing connection 256)
+[2018.11.04-04.11.19:528][500]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.11.19:528][500]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.11.19:528][500]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 257)
+[2018.11.04-04.12.19:528][680]LogHttp:Warning: 00000229ABBFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.12.19:528][680]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.12.19:528][680]LogHttp:Warning: 00000229ABBFA080: libcurl info message cache 1 (Closing connection 258)
+[2018.11.04-04.13.19:527][860]LogHttp:Warning: 00000229ABBF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.13.19:527][860]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.13.19:527][860]LogHttp:Warning: 00000229ABBF9600: libcurl info message cache 1 (Closing connection 259)
+[2018.11.04-04.14.19:528][ 40]LogHttp:Warning: 00000229ABBFA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.14.19:528][ 40]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.14.19:528][ 40]LogHttp:Warning: 00000229ABBFA800: libcurl info message cache 1 (Closing connection 260)
+[2018.11.04-04.15.19:528][220]LogHttp:Warning: 00000229ABBFBE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.15.19:528][220]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.15.19:529][220]LogHttp:Warning: 00000229ABBFBE80: libcurl info message cache 1 (Closing connection 261)
+[2018.11.04-04.16.19:528][400]LogHttp:Warning: 00000229ABBFB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.16.19:528][400]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.16.19:528][400]LogHttp:Warning: 00000229ABBFB400: libcurl info message cache 1 (Closing connection 262)
+[2018.11.04-04.17.19:529][580]LogHttp:Warning: 00000229ABBFA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.17.19:529][580]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.17.19:529][580]LogHttp:Warning: 00000229ABBFA200: libcurl info message cache 1 (Closing connection 263)
+[2018.11.04-04.18.19:529][760]LogHttp:Warning: 00000229ABBFBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.18.19:529][760]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.18.19:529][760]LogHttp:Warning: 00000229ABBFBD00: libcurl info message cache 1 (Closing connection 264)
+[2018.11.04-04.19.19:529][940]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.19.19:529][940]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.19.19:529][940]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 265)
+[2018.11.04-04.20.19:529][120]LogHttp:Warning: 00000229ABBF9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.20.19:529][120]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.20.19:529][120]LogHttp:Warning: 00000229ABBF9900: libcurl info message cache 1 (Closing connection 266)
+[2018.11.04-04.21.19:530][300]LogHttp:Warning: 00000229ABBF9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.21.19:530][300]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.21.19:530][300]LogHttp:Warning: 00000229ABBF9300: libcurl info message cache 1 (Closing connection 267)
+[2018.11.04-04.22.19:530][480]LogHttp:Warning: 00000229ABBFBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.22.19:530][480]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.22.19:530][480]LogHttp:Warning: 00000229ABBFBB80: libcurl info message cache 1 (Closing connection 268)
+[2018.11.04-04.23.19:530][660]LogHttp:Warning: 00000229ABBFA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.23.19:530][660]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.23.19:530][660]LogHttp:Warning: 00000229ABBFA500: libcurl info message cache 1 (Closing connection 269)
+[2018.11.04-04.24.19:229][791]LogHttp:Warning: 00000229B2DB3580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.24.19:229][791]LogHttp:Warning: 00000229B2DB3580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.24.19:229][791]LogHttp:Warning: 00000229B2DB3580: libcurl info message cache 1 (Closing connection 270)
+[2018.11.04-04.25.05:256][711]LogTemp: Repeting last play command: VR プレビュー
+[2018.11.04-04.25.05:335][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-04.25.05:336][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-04.25.05:340][711]PIE: New page: PIEセッション: Minimal_Default (2018/11/04 22:25:05)
+[2018.11.04-04.25.05:341][711]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.25.05:355][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014000s)
+[2018.11.04-04.25.05:356][711]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.25.05:357][711]LogPlayLevel: PIE: World Init took: (0.002146s)
+[2018.11.04-04.25.05:357][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016678s)
+[2018.11.04-04.25.05:390][711]LogInit: XAudio2 using 'スピーカー (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-04.25.05:400][711]LogInit: FAudioDevice initialized.
+[2018.11.04-04.25.06:009][711]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-B5F70FAF
+[2018.11.04-04.25.06:055][711]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.25.06:064][711]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.25.06
+[2018.11.04-04.25.06:066][711]LogWorld: Bringing up level for play took: 0.002854
+[2018.11.04-04.25.06:122][711]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.11.04-04.25.06:123][711]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.25.06:123][711]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.25.06:123][711]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.25.06:126][711]Cmd: Stereo On
+[2018.11.04-04.25.06:129][711]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.25.06:130][711]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.25.06:131][711]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.25.06:136][711]PIE: 情報 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.108のプレイ イン エディタの開始時間
+[2018.11.04-04.25.06:137][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-04.25.06:206][712]LogRenderer: Reallocating scene render targets to support 3424x1904 NumSamples 1 (Frame:1).
+[2018.11.04-04.25.19:293][496]LogHttp:Warning: 00000229DC9FD780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.25.19:293][496]LogHttp:Warning: 00000229DC9FD780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.25.19:293][496]LogHttp:Warning: 00000229DC9FD780: libcurl info message cache 1 (Closing connection 271)
+[2018.11.04-04.26.10:306][ 63]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.26.10:329][ 65]LogLevel: ActivateLevel /Game/sanndabi_model/UEDPIE_0_MaP 1 1 0
+[2018.11.04-04.26.10:329][ 65]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.26.10:342][ 66]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.26.10:353][ 67]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.26.10:353][ 67]LogLevel: ActivateLevel /Game/sanndabi_model/UEDPIE_0_MaP 1 1 0
+[2018.11.04-04.26.10:360][ 67]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.27.05:563][  8]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.27.05:563][  8]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.27.05:563][  8]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.04-04.27.05:574][  9]LogEngine: Server switch level: ?Restart
+[2018.11.04-04.27.05:574][  9]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.04-04.27.05:585][  9]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.04-04.27.05:605][  9]Cmd: MEM
+[2018.11.04-04.27.05:615][  9]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-04.27.05:615][  9]LogMemory: Process Physical Memory: 432.79 MB used, 1430.77 MB peak
+[2018.11.04-04.27.05:615][  9]LogMemory: Process Virtual Memory: 2655.20 MB used, 2842.88 MB peak
+[2018.11.04-04.27.05:615][  9]LogMemory: Physical Memory: 8400.00 MB used,  7916.12 MB free, 16316.12 MB total
+[2018.11.04-04.27.05:615][  9]LogMemory: Virtual Memory: 7958.24 MB used,  7916.12 MB free, 134217728.00 MB total
+[2018.11.04-04.27.05:615][  9]LogMemory: 
+[2018.11.04-04.27.05:615][  9]Allocator Stats for TBB: (not implemented)
+[2018.11.04-04.27.05:615][  9]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.27.05:620][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004950s)
+[2018.11.04-04.27.05:620][  9]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.27.05:621][  9]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.11.04-04.27.05:621][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005839s)
+[2018.11.04-04.27.05:621][  9]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.27.05:623][  9]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.27.05
+[2018.11.04-04.27.05:623][  9]LogWorld: Bringing up level for play took: 0.000899
+[2018.11.04-04.27.05:624][  9]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.04-04.27.05:624][  9]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.27.05:624][  9]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.27.05:624][  9]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.27.05:624][  9]Cmd: Stereo On
+[2018.11.04-04.27.05:624][  9]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.27.05:624][  9]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.27.05:624][  9]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.27.05:624][  9]LogLoad: Took 0.038604 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.04-04.27.13:404][704]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.27.13:427][706]LogLevel: ActivateLevel /Game/Amatukzae_model/UEDPIE_0_Amatukaze 1 1 0
+[2018.11.04-04.27.13:427][706]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.27.13:465][706]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Amatukzae_model/UEDPIE_0_Amatukaze took (less than) 37.43 ms
+[2018.11.04-04.27.13:467][707]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.27.13:471][708]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.27.13:471][708]LogLevel: ActivateLevel /Game/Amatukzae_model/UEDPIE_0_Amatukaze 1 1 0
+[2018.11.04-04.27.13:471][708]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.27.19:301][230]LogHttp:Warning: 00000229DC9BCA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.27.19:301][230]LogHttp:Warning: 00000229DC9BCA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.27.19:301][230]LogHttp:Warning: 00000229DC9BCA00: libcurl info message cache 1 (Closing connection 272)
+[2018.11.04-04.27.58:888][774]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.27.58:888][774]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.27.58:888][774]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.04-04.27.58:899][775]LogEngine: Server switch level: ?Restart
+[2018.11.04-04.27.58:899][775]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.04-04.27.58:910][775]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.04-04.27.58:922][775]Cmd: MEM
+[2018.11.04-04.27.58:932][775]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-04.27.58:932][775]LogMemory: Process Physical Memory: 440.77 MB used, 1430.77 MB peak
+[2018.11.04-04.27.58:932][775]LogMemory: Process Virtual Memory: 2662.89 MB used, 3149.46 MB peak
+[2018.11.04-04.27.58:932][775]LogMemory: Physical Memory: 8439.17 MB used,  7876.95 MB free, 16316.12 MB total
+[2018.11.04-04.27.58:932][775]LogMemory: Virtual Memory: 8017.61 MB used,  7876.95 MB free, 134217728.00 MB total
+[2018.11.04-04.27.58:932][775]LogMemory: 
+[2018.11.04-04.27.58:932][775]Allocator Stats for TBB: (not implemented)
+[2018.11.04-04.27.58:932][775]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.27.58:936][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004110s)
+[2018.11.04-04.27.58:936][775]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.27.58:937][775]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2018.11.04-04.27.58:937][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005327s)
+[2018.11.04-04.27.58:937][775]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.27.58:939][775]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.27.58
+[2018.11.04-04.27.58:939][775]LogWorld: Bringing up level for play took: 0.000963
+[2018.11.04-04.27.58:939][775]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.04-04.27.58:939][775]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.27.58:939][775]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.27.58:939][775]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.27.58:940][775]Cmd: Stereo On
+[2018.11.04-04.27.58:940][775]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.27.58:940][775]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.27.58:940][775]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.27.58:940][775]LogLoad: Took 0.029848 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.04-04.28.05:946][402]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.05:968][404]LogLevel: ActivateLevel /Game/koya_Model/UEDPIE_0_koya_level 1 1 0
+[2018.11.04-04.28.05:968][404]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.05:982][405]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.05:992][406]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.28.05:992][406]LogLevel: ActivateLevel /Game/koya_Model/UEDPIE_0_koya_level 1 1 0
+[2018.11.04-04.28.05:995][406]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.19:294][597]LogHttp:Warning: 00000229E7816380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.28.19:294][597]LogHttp:Warning: 00000229E7816380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.28.19:294][597]LogHttp:Warning: 00000229E7816380: libcurl info message cache 1 (Closing connection 273)
+[2018.11.04-04.28.22:880][918]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.28.22:880][918]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.28.22:881][918]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.04-04.28.22:891][919]LogEngine: Server switch level: ?Restart
+[2018.11.04-04.28.22:891][919]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.04-04.28.22:901][919]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.04-04.28.22:914][919]Cmd: MEM
+[2018.11.04-04.28.22:922][919]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-04.28.22:922][919]LogMemory: Process Physical Memory: 450.57 MB used, 1430.77 MB peak
+[2018.11.04-04.28.22:922][919]LogMemory: Process Virtual Memory: 2670.04 MB used, 3149.46 MB peak
+[2018.11.04-04.28.22:922][919]LogMemory: Physical Memory: 8438.56 MB used,  7877.55 MB free, 16316.12 MB total
+[2018.11.04-04.28.22:922][919]LogMemory: Virtual Memory: 7985.61 MB used,  7877.55 MB free, 134217728.00 MB total
+[2018.11.04-04.28.22:922][919]LogMemory: 
+[2018.11.04-04.28.22:922][919]Allocator Stats for TBB: (not implemented)
+[2018.11.04-04.28.22:922][919]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.28.22:927][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004357s)
+[2018.11.04-04.28.22:927][919]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.28.22:927][919]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.11.04-04.28.22:928][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005290s)
+[2018.11.04-04.28.22:928][919]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.28.22:929][919]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.28.22
+[2018.11.04-04.28.22:930][919]LogWorld: Bringing up level for play took: 0.000915
+[2018.11.04-04.28.22:930][919]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.04-04.28.22:930][919]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.28.22:930][919]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.28.22:930][919]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.28.22:930][919]Cmd: Stereo On
+[2018.11.04-04.28.22:930][919]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.28.22:930][919]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.28.22:930][919]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.28.22:930][919]LogLoad: Took 0.028383 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.04-04.28.29:838][538]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.29:860][540]LogLevel: ActivateLevel /Game/ujimoto_model_4/UEDPIE_0_ujimoto_level 1 1 0
+[2018.11.04-04.28.29:860][540]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.29:945][540]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/ujimoto_model_4/UEDPIE_0_ujimoto_level took (less than) 83.44 ms
+[2018.11.04-04.28.29:946][541]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.28.29:954][542]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.28.29:954][542]LogLevel: ActivateLevel /Game/ujimoto_model_4/UEDPIE_0_ujimoto_level 1 1 0
+[2018.11.04-04.28.29:954][542]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.08:824][389]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.30.08:824][389]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.30.08:824][389]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.04-04.30.08:835][390]LogEngine: Server switch level: ?Restart
+[2018.11.04-04.30.08:835][390]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.04-04.30.08:845][390]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.04-04.30.08:859][390]Cmd: MEM
+[2018.11.04-04.30.08:868][390]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-04.30.08:868][390]LogMemory: Process Physical Memory: 454.39 MB used, 1430.77 MB peak
+[2018.11.04-04.30.08:868][390]LogMemory: Process Virtual Memory: 2665.86 MB used, 3149.46 MB peak
+[2018.11.04-04.30.08:868][390]LogMemory: Physical Memory: 8398.96 MB used,  7917.16 MB free, 16316.12 MB total
+[2018.11.04-04.30.08:868][390]LogMemory: Virtual Memory: 8026.74 MB used,  7917.16 MB free, 134217728.00 MB total
+[2018.11.04-04.30.08:868][390]LogMemory: 
+[2018.11.04-04.30.08:868][390]Allocator Stats for TBB: (not implemented)
+[2018.11.04-04.30.08:868][390]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.30.08:871][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004121s)
+[2018.11.04-04.30.08:871][390]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.30.08:872][390]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.11.04-04.30.08:872][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005049s)
+[2018.11.04-04.30.08:872][390]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.30.08:875][390]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.30.08
+[2018.11.04-04.30.08:875][390]LogWorld: Bringing up level for play took: 0.001027
+[2018.11.04-04.30.08:875][390]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.04-04.30.08:875][390]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.30.08:875][390]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.30.08:875][390]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.30.08:876][390]Cmd: Stereo On
+[2018.11.04-04.30.08:876][390]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.30.08:876][390]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.30.08:876][390]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.30.08:876][390]LogLoad: Took 0.030010 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.04-04.30.19:290][323]LogHttp:Warning: 00000229DC9FE200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.30.19:290][323]LogHttp:Warning: 00000229DC9FE200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.30.19:290][323]LogHttp:Warning: 00000229DC9FE200: libcurl info message cache 1 (Closing connection 274)
+[2018.11.04-04.30.23:657][714]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.23:679][716]LogLevel: ActivateLevel /Game/sanndabi_model/UEDPIE_0_MaP 1 1 0
+[2018.11.04-04.30.23:679][716]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.23:691][717]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.23:704][718]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.30.23:704][718]LogLevel: ActivateLevel /Game/sanndabi_model/UEDPIE_0_MaP 1 1 0
+[2018.11.04-04.30.23:704][718]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.52:922][334]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.30.52:922][334]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.04-04.30.52:922][334]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.04-04.30.52:933][335]LogEngine: Server switch level: ?Restart
+[2018.11.04-04.30.52:933][335]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.04-04.30.52:944][335]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.04-04.30.52:955][335]Cmd: MEM
+[2018.11.04-04.30.52:964][335]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-04.30.52:964][335]LogMemory: Process Physical Memory: 500.24 MB used, 1430.77 MB peak
+[2018.11.04-04.30.52:964][335]LogMemory: Process Virtual Memory: 2719.51 MB used, 3149.46 MB peak
+[2018.11.04-04.30.52:964][335]LogMemory: Physical Memory: 8444.01 MB used,  7872.11 MB free, 16316.12 MB total
+[2018.11.04-04.30.52:964][335]LogMemory: Virtual Memory: 7978.74 MB used,  7872.11 MB free, 134217728.00 MB total
+[2018.11.04-04.30.52:964][335]LogMemory: 
+[2018.11.04-04.30.52:964][335]Allocator Stats for TBB: (not implemented)
+[2018.11.04-04.30.52:964][335]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-04.30.52:967][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003980s)
+[2018.11.04-04.30.52:969][335]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-04.30.52:969][335]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2018.11.04-04.30.52:969][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004891s)
+[2018.11.04-04.30.52:969][335]LogLoad: Game class is 'VR_mode_C'
+[2018.11.04-04.30.52:972][335]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-13.30.52
+[2018.11.04-04.30.52:972][335]LogWorld: Bringing up level for play took: 0.001118
+[2018.11.04-04.30.52:972][335]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.04-04.30.52:972][335]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.30.52:972][335]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.04-04.30.52:972][335]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.30.52:972][335]Cmd: Stereo On
+[2018.11.04-04.30.52:972][335]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.04-04.30.52:972][335]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.04-04.30.52:972][335]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.04-04.30.52:972][335]LogLoad: Took 0.028037 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.04-04.30.58:842][861]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.58:863][863]LogLevel: ActivateLevel /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level 1 1 0
+[2018.11.04-04.30.58:863][863]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.58:887][863]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level took (less than) 21.90 ms
+[2018.11.04-04.30.58:888][864]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.58:895][864]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.04-04.30.58:896][864]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.04-04.30.58:896][864]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.04-04.30.58:896][864]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.04-04.30.58:896][864]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.04-04.30.58:896][864]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.04-04.30.58:896][864]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.04-04.30.58:896][864]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.04-04.30.58:899][865]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.30.58:903][866]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.04-04.30.58:903][866]LogLevel: ActivateLevel /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level 1 1 0
+[2018.11.04-04.30.58:903][866]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.04-04.31.16:395][432]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-04.31.16:548][432]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-04.31.16:581][433]LogDialogs:Warning: Suppressed: VRモードではモーションコントローラーを使ってバーチャルリアリティ内でプロジェクト作業を行えます。この機能はまだ開発中で、使用中にバグやクラッシュに遭遇するおそれがあります。
+[2018.11.04-04.31.19:811][614]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.19:811][614]LogHttp:Warning: 00000229AE204E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-04.31.19:811][614]LogHttp:Warning: 00000229AE204E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-04.31.19:811][614]LogHttp:Warning: 00000229AE204E80: libcurl info message cache 1 (Closing connection 275)
+[2018.11.04-04.31.20:144][615]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.20:475][616]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.20:811][617]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.21:141][618]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.21:475][619]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.21:810][620]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.22:143][621]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.22:475][622]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.22:809][623]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-04.31.23:141][623]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.04-06.48.56:642][635]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.04-06.48.56:974][635]LogSavePackage: Save=126.65ms
+[2018.11.04-06.48.56:974][635]LogSavePackage: Moving '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default9037E9C44C8C31B792EA0F818A8605C7.tmp' to '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.04-06.48.56:977][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.04-06.48.57:008][635]LogFileHelpers: Saving map 'Minimal_Default' took 0.353
+[2018.11.04-06.48.57:126][635]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2018.11.04-06.48.57:327][636]Cmd: QUIT_EDITOR
+[2018.11.04-06.48.58:149][636]LogExit: Preparing to exit.
+[2018.11.04-06.48.58:891][636]LogDirectoryWatcher: A directory notification failed for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/', and we were unable to create a new request.
+[2018.11.04-06.48.58:963][636]LogExit: Editor shut down
+[2018.11.04-06.48.58:977][636]LogExit: Transaction tracking system shut down
+[2018.11.04-06.48.59:180][636]LogObj: Freed 0b from 0 cluster array pools.
+[2018.11.04-06.48.59:180][636]LogExit: Object subsystem successfully closed.
+[2018.11.04-06.48.59:230][636]LogD3D11RHI: Shutdown
+[2018.11.04-06.48.59:230][636]LogD3D11RHI: CleanupD3DDevice
+[2018.11.04-06.48.59:236][636]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.04-06.48.59:272][636]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.11.04-06.48.59:272][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.11.04-06.48.59:273][636]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.11.04-06.48.59:273][636]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.11.04-06.48.59:273][636]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.11.04-06.48.59:273][636]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.11.04-06.48.59:276][636]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Collections/' was aborted.
+[2018.11.04-06.48.59:276][636]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Developers/densan/Collections/' was aborted.
+[2018.11.04-06.48.59:276][636]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Saved/Collections/' was aborted.
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.11.04-06.48.59:276][636]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.11.04-06.48.59:277][636]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.11.04-06.48.59:278][636]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.11.04-06.48.59:278][636]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.11.04-06.48.59:278][636]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.11.04-06.48.59:278][636]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.11.04-06.48.59:279][636]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.11.04-06.48.59:281][636]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.11.04-06.48.59:281][636]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.11.04-06.48.59:281][636]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.11.04-06.48.59:281][636]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.11.04-06.48.59:281][636]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.11.04-06.48.59:282][636]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.11.04-06.48.59:283][636]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.11.04-06.48.59:283][636]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.11.04-06.48.59:283][636]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.11.04-06.48.59:283][636]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.11.04-06.48.59:283][636]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.11.04-06.48.59:284][636]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.11.04-06.48.59:285][636]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.11.04-06.48.59:286][636]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.11.04-06.48.59:287][636]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.11.04-06.48.59:287][636]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.11.04-06.48.59:287][636]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.11.04-06.48.59:287][636]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.11.04-06.48.59:287][636]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.11.04-06.48.59:787][636]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.11.04-06.48.59:787][636]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.11.04-06.48.59:787][636]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.11.04-06.48.59:788][636]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.11.04-06.48.59:788][636]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.11.04-06.48.59:788][636]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.11.04-06.48.59:788][636]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.11.04-06.48.59:788][636]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.11.04-06.48.59:789][636]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.11.04-06.48.59:790][636]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.11.04-06.48.59:790][636]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.11.04-06.48.59:790][636]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.11.04-06.48.59:790][636]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.11.04-06.48.59:790][636]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.11.04-06.48.59:791][636]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.11.04-06.48.59:791][636]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.11.04-06.48.59:791][636]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.11.04-06.48.59:791][636]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.11.04-06.48.59:791][636]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.11.04-06.48.59:792][636]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.11.04-06.48.59:792][636]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.11.04-06.48.59:793][636]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.11.04-06.48.59:793][636]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.11.04-06.48.59:793][636]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.11.04-06.48.59:848][636]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.11.04-06.48.59:848][636]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.11.04-06.48.59:849][636]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.11.04-06.48.59:851][636]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.11.04-06.48.59:851][636]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.11.04-06.48.59:852][636]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.11.04-06.48.59:852][636]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.11.04-06.48.59:853][636]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.11.04-06.48.59:853][636]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.11.04-06.48.59:853][636]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.11.04-06.48.59:854][636]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.11.04-06.48.59:854][636]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.11.04-06.48.59:854][636]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.11.04-06.48.59:855][636]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.11.04-06.48.59:856][636]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.11.04-06.48.59:856][636]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.11.04-06.48.59:857][636]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.11.04-06.48.59:857][636]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.11.04-06.48.59:857][636]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.11.04-06.48.59:857][636]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.11.04-06.48.59:857][636]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.11.04-06.48.59:858][636]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.11.04-06.48.59:859][636]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.11.04-06.49.00:005][636]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.11.04-06.49.00:006][636]LogModuleManager: Shutting down and abandoning module IM4U (326)
+[2018.11.04-06.49.00:006][636]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.11.04-06.49.00:006][636]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.11.04-06.49.00:006][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.11.04-06.49.00:006][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.11.04-06.49.00:007][636]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.11.04-06.49.00:009][636]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.11.04-06.49.00:010][636]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.11.04-06.49.00:011][636]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.11.04-06.49.00:011][636]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.11.04-06.49.00:011][636]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.11.04-06.49.00:011][636]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.11.04-06.49.00:012][636]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.11.04-06.49.00:013][636]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.11.04-06.49.00:013][636]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.11.04-06.49.00:014][636]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.11.04-06.49.00:016][636]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.11.04-06.49.00:017][636]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.11.04-06.49.00:017][636]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.11.04-06.49.00:017][636]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Plugins/IM4U/Binaries/Win64' was aborted.
+[2018.11.04-06.49.00:018][636]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.11.04-06.49.00:018][636]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.11.04-06.49.00:018][636]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.11.04-06.49.00:018][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.11.04-06.49.00:018][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.11.04-06.49.00:019][636]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.11.04-06.49.00:120][636]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.11.04-06.49.00:220][636]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.11.04-06.49.00:221][636]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.11.04-06.49.00:221][636]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.11.04-06.49.00:221][636]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.11.04-06.49.00:222][636]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.11.04-06.49.00:224][636]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.11.04-06.49.00:225][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.11.04-06.49.00:225][636]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.11.04-06.49.00:225][636]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.11.04-06.49.00:225][636]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.11.04-06.49.00:227][636]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.11.04-06.49.00:228][636]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.11.04-06.49.00:228][636]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.11.04-06.49.00:228][636]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.11.04-06.49.00:228][636]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.11.04-06.49.00:228][636]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.11.04-06.49.00:229][636]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.11.04-06.49.00:229][636]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.11.04-06.49.00:231][636]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.11.04-06.49.00:231][636]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.11.04-06.49.00:232][636]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.11.04-06.49.00:232][636]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.11.04-06.49.00:233][636]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.11.04-06.49.00:235][636]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.11.04-06.49.00:238][636]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.11.04-06.49.00:238][636]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.11.04-06.49.00:238][636]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.11.04-06.49.00:240][636]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.11.04-06.49.00:240][636]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.11.04-06.49.00:243][636]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.11.04-06.49.00:391][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.04-06.49.00:391][636]LogDirectoryWatcher: A directory notification for '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/' was aborted.
+[2018.11.04-06.49.00:391][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.04-06.49.00:391][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.11.04-06.49.00:391][636]LogDirectoryWatcher: A directory notification for '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Plugins/IM4U/Content/' was aborted.
+[2018.11.04-06.49.00:397][636]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.11.04-06.49.00:400][636]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.11.04-06.49.00:400][636]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.11.04-06.49.00:400][636]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.11.04-06.49.00:400][636]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.11.04-06.49.00:402][636]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.11.04-06.49.00:402][636]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.11.04-06.49.00:402][636]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.11.04-06.49.00:403][636]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.11.04-06.49.00:461][636]LogDerivedDataCache: Shutdown
+[2018.11.04-06.49.00:461][636]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.11.04-06.49.00:461][636]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.11.04-06.49.00:462][636]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.11.04-06.49.00:463][636]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.11.04-06.49.00:463][636]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.11.04-06.49.00:464][636]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.11.04-06.49.00:464][636]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.11.04-06.49.00:464][636]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.11.04-06.49.00:464][636]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.11.04-06.49.00:464][636]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.11.04-06.49.00:465][636]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.11.04-06.49.00:466][636]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.11.04-06.49.00:467][636]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.11.04-06.49.00:467][636]LogOnline:Display: Unloading online subsystem: NULL
+[2018.11.04-06.49.00:469][636]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.11.04-06.49.00:470][636]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.04-06.49.00:470][636]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.04-06.49.00:470][636]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6604CA71-49C5-2311-3712-F6A392ED52E0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6440e1da4c2a4657806efb82b0665496%7C233b43acc2594acea471b90123722db2%7C69b368c5-ae85-45e4-9861-dd65847fc230&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.04-06.49.00:470][636]LogHttp:Warning: 00000229B2CED000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.04-06.49.00:470][636]LogHttp:Warning: 00000229B2CED000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.04-06.49.00:470][636]LogHttp:Warning: 00000229B2CED000: libcurl info message cache 1 (Closing connection 276)
+[2018.11.04-06.49.00:495][636]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.04-06.49.00:497][636]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.11.04-06.49.00:498][636]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.11.04-06.49.00:498][636]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.11.04-06.49.00:498][636]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.11.04-06.49.00:499][636]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.11.04-06.49.00:500][636]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.11.04-06.49.00:500][636]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.11.04-06.49.00:500][636]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.11.04-06.49.00:504][636]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.11.04-06.49.00:505][636]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.04-06.49.00:505][636]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.04-06.49.00:505][636]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.04-06.49.00:508][636]LogExit: Exiting.
+[2018.11.04-06.49.00:527][636]Log file closed, 11/04/18 15:49:00

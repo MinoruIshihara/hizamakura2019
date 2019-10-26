@@ -1,0 +1,841 @@
+﻿Log file open, 11/03/18 17:31:48
+LogInit:Display: Running engine for game: HIZAMAKURA2017
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1127849102) SRandInit(-1127849102).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089296
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.03-08.31.48:987][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-08.31.48:987][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.03-08.31.48:998][  0]LogInit: Computer: DESKTOP-QH1O805
+[2018.11.03-08.31.48:998][  0]LogInit: User: densan
+[2018.11.03-08.31.48:998][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.03-08.31.48:998][  0]LogInit: High frequency timer resolution =3.914058 MHz
+[2018.11.03-08.31.48:998][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.03-08.31.48:998][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-08.31.48:998][  0]LogMemory: Process Physical Memory: 272.67 MB used, 272.67 MB peak
+[2018.11.03-08.31.48:998][  0]LogMemory: Process Virtual Memory: 261.09 MB used, 261.09 MB peak
+[2018.11.03-08.31.48:998][  0]LogMemory: Physical Memory: 5510.79 MB used,  10805.32 MB free, 16316.12 MB total
+[2018.11.03-08.31.48:998][  0]LogMemory: Virtual Memory: 4773.96 MB used,  10805.32 MB free, 134217728.00 MB total
+[2018.11.03-08.31.49:082][  0]LogInit: Using OS detected language (ja-JP).
+[2018.11.03-08.31.49:082][  0]LogInit: Using OS detected locale (ja-JP).
+[2018.11.03-08.31.49:084][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2018.11.03-08.31.49:799][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.03-08.31.49:824][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.03-08.31.49:824][  0]LogD3D11RHI:       8145/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.03-08.31.49:826][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.03-08.31.49:826][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.03-08.31.49:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.03-08.31.49:831][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.03-08.31.49:831][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.03-08.31.49:831][  0]LogWindows: EnumDisplayDevices:
+[2018.11.03-08.31.49:831][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.03-08.31.49:831][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-08.31.49:831][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-08.31.49:831][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.03-08.31.49:831][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.03-08.31.49:831][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.03-08.31.49:831][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.03-08.31.49:831][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.03-08.31.49:831][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.03-08.31.49:850][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.03-08.31.49:867][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.03-08.31.49:915][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/11804/).
+[2018.11.03-08.31.49:916][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/densan/AppData/Local/Temp/UnrealShaderWorkingDir/D0357CDD4A6125B472DADF9C30CCFDD0/'.
+[2018.11.03-08.31.49:916][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.03-08.31.51:024][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.03-08.31.51:085][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.11.03-08.31.51:138][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.03-08.31.51:191][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.11.03-08.31.51:247][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.11.03-08.31.51:304][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.03-08.31.51:359][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.03-08.31.51:417][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.03-08.31.51:470][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.03-08.31.51:525][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-08.31.51:583][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.03-08.31.51:637][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.03-08.31.51:696][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.03-08.31.51:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.03-08.31.51:809][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.03-08.31.51:924][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.03-08.31.51:924][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.03-08.31.51:969][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.03-08.31.52:070][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.03-08.31.52:100][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-08.31.52:154][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.03-08.31.52:212][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.03-08.31.52:271][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.03-08.31.52:333][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.03-08.31.52:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.03-08.31.52:901][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.03-08.31.52:992][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.03-08.31.53:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.03-08.31.53:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/densan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.03-08.31.53:025][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.03-08.31.53:026][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.03-08.31.53:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-08.31.53:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-08.31.53:305][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-08.31.53:366][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.03-08.31.53:519][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.03-08.31.53:577][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.03-08.31.53:635][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.03-08.31.53:635][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.03-08.31.53:635][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.03-08.31.54:141][  0]LogNetVersion: HIZAMAKURA2017 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3901174432)
+[2018.11.03-08.31.54:204][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.11.03-08.31.54:266][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.035546 seconds
+[2018.11.03-08.31.54:271][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.11.03-08.31.54:271][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.11.03-08.31.54:271][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.03-08.31.54:352][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.03-08.31.56:918][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.03-08.31.56:967][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.03-08.31.57:603][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.03-08.31.58:093][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-08.31.58:135][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-08.31.58:198][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-08.31.58:257][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-08.31.58:585][  0]LogLinker:Warning: ファイル '/Game/FirstPersonBP/FirstPersonOverview' が見つかりません
+[2018.11.03-08.31.58:585][  0]LogLinker:Warning: ファイル '/Game/FirstPersonBP/FirstPersonOverview' が見つかりません
+[2018.11.03-08.31.58:585][  0]LogUObjectGlobals:Warning: オブジェクト 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' が見つかりませんでした
+[2018.11.03-08.31.59:129][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.03-08.31.59:941][  0]LogEngine: Initializing Engine...
+[2018.11.03-08.32.00:520][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-B5F70FAF
+[2018.11.03-08.32.00:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-08.32.00:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-08.32.00:852][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.03-08.32.00:864][  0]LogInit: XAudio2 using 'スピーカー (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-08.32.00:877][  0]LogInit: FAudioDevice initialized.
+[2018.11.03-08.32.00:922][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/densan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.03-08.32.00:935][  0]LogInit: Texture streaming: Enabled
+[2018.11.03-08.32.01:044][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.03-08.32.01:293][  0]LogInit: Transaction tracking system initialized
+[2018.11.03-08.32.01:655][  0]BlueprintLog: New page: エディタの読み込み
+[2018.11.03-08.32.02:737][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2018.11.03-08.32.03:507][  0]LogConsoleResponse:Display: 
+[2018.11.03-08.32.03:643][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.03-08.32.03:643][  0]LogCook:Display: Mobile HDR setting 1
+[2018.11.03-08.32.04:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/' took 0.02s
+[2018.11.03-08.32.04:788][  0]SourceControl: 情報 ソースコントロールは無効です
+[2018.11.03-08.32.04:788][  0]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.32.04:788][  0]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.32.04:839][  0]MapCheck: New page: マップをチェック
+[2018.11.03-08.32.04:839][  0]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.32.05:091][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.32.07:108][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.32.07:129][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.32.07:215][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 87.096ミリ秒かかりました。
+[2018.11.03-08.32.07:215][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.428
+[2018.11.03-08.32.07:342][  0]LogCollectionManager: Loaded 0 collections in 0.001552 seconds
+[2018.11.03-08.32.07:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.01s
+[2018.11.03-08.32.07:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Developers/densan/Collections/' took 0.01s
+[2018.11.03-08.32.07:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.01s
+[2018.11.03-08.32.07:426][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.11.03-08.32.07:434][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2340 classes and 495 folders.
+[2018.11.03-08.32.07:507][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.03-08.32.07:540][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.03-08.32.07:590][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.03-08.32.07:664][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.03-08.32.07:674][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2018.11.03-08.32.07:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.03-08.32.07:747][  0]LogLoad: (Engine Initialization) Total time: 20.51 seconds
+[2018.11.03-08.32.07:747][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2018.11.03-08.32.07:747][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.11.03-08.32.07:747][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.11.03-08.32.07:790][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2018.11.03-08.32.07:796][  0]LogOcInput: OculusInput pre-init called
+[2018.11.03-08.32.07:796][  0]LogHMD: Starting GearVRController plugin
+[2018.11.03-08.32.07:826][  0]LogAssetRegistry: Asset discovery search completed in 13.6439 seconds
+[2018.11.03-08.32.07:828][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.03-08.32.07:828][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2018.11.03-08.32.07:836][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.03-08.32.07:850][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.03-08.32.07:852][  0]LogSlate: Took 0.001796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.03-08.32.07:853][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.03-08.32.07:856][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.03-08.32.07:933][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.03-08.32.07:960][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/' took 0.15s
+[2018.11.03-08.32.07:977][  2]LogRenderer: Reallocating scene render targets to support 1076x568 NumSamples 1 (Frame:1).
+[2018.11.03-08.32.54:817][429]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.03-08.32.54:833][429]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/iSHIHARA_MODEL3/Ishihara_Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.32.54:834][429]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.32.54:835][429]LoadErrors: New page: マップをロード中: Ishihara_Level2.umap
+[2018.11.03-08.32.54:838][429]MapCheck: New page: マップをチェック
+[2018.11.03-08.32.54:838][429]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.32.54:847][429]LogAIModule: Creating AISystem for world Ishihara_Level2
+[2018.11.03-08.32.54:917][429]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.32.54:955][429]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.32.55:041][429]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 86.098ミリ秒かかりました。
+[2018.11.03-08.32.55:042][429]LogFileHelpers: Loading map 'Ishihara_Level2' took 0.210
+[2018.11.03-08.32.56:755][632]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/ujimoto_model_4/ujimoto_level_BuiltData.ujimoto_level_BuiltData' が見つかりませんでした
+[2018.11.03-08.32.58:001][780]LogAIModule: Creating AISystem for world ujimoto_level
+[2018.11.03-08.32.58:013][780]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/ujimoto_model_4/ujimoto_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.32.58:013][780]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.32.58:014][780]LoadErrors: New page: マップをロード中: ujimoto_level.umap
+[2018.11.03-08.32.58:014][780]MapCheck: New page: マップをチェック
+[2018.11.03-08.32.58:014][780]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.32.58:130][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.32.58:167][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.32.58:253][780]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 85.467ミリ秒かかりました。
+[2018.11.03-08.32.58:254][780]LogFileHelpers: Loading map 'ujimoto_level' took 0.242
+[2018.11.03-08.32.59:079][876]LogAIModule: Creating AISystem for world koya_level
+[2018.11.03-08.32.59:092][876]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/koya_Model/koya_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.32.59:092][876]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.32.59:093][876]LoadErrors: New page: マップをロード中: koya_level.umap
+[2018.11.03-08.32.59:094][876]MapCheck: New page: マップをチェック
+[2018.11.03-08.32.59:094][876]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.32.59:219][876]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.32.59:257][876]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.32.59:342][876]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 85.736ミリ秒かかりました。
+[2018.11.03-08.32.59:342][876]LogFileHelpers: Loading map 'koya_level' took 0.251
+[2018.11.03-08.32.59:862][935]LogAIModule: Creating AISystem for world Ishihara_Level2
+[2018.11.03-08.32.59:873][935]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/iSHIHARA_MODEL3/Ishihara_Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.32.59:873][935]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.32.59:874][935]LoadErrors: New page: マップをロード中: Ishihara_Level2.umap
+[2018.11.03-08.32.59:875][935]MapCheck: New page: マップをチェック
+[2018.11.03-08.32.59:875][935]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.00:024][935]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.00:061][935]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.00:144][935]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 83.498ミリ秒かかりました。
+[2018.11.03-08.33.00:145][935]LogFileHelpers: Loading map 'Ishihara_Level2' took 0.273
+[2018.11.03-08.33.00:704][999]LogAIModule: Creating AISystem for world Ishihara_Level
+[2018.11.03-08.33.00:715][999]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/Ishihara_model2/Ishihara_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.00:715][999]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.00:716][999]LoadErrors: New page: マップをロード中: Ishihara_Level.umap
+[2018.11.03-08.33.00:716][999]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.00:716][999]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.00:903][999]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.00:941][999]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.01:025][999]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 83.675ミリ秒かかりました。
+[2018.11.03-08.33.01:025][999]LogFileHelpers: Loading map 'Ishihara_Level' took 0.311
+[2018.11.03-08.33.02:071][121]LogAIModule: Creating AISystem for world GUI_level
+[2018.11.03-08.33.02:086][121]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/GUI/GUI_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.02:087][121]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.02:087][121]LoadErrors: New page: マップをロード中: GUI_level.umap
+[2018.11.03-08.33.02:088][121]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.02:088][121]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.02:269][121]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.02:308][121]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.02:393][121]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 85.252ミリ秒かかりました。
+[2018.11.03-08.33.02:393][121]LogFileHelpers: Loading map 'GUI_level' took 0.308
+[2018.11.03-08.33.03:341][231]LogAIModule: Creating AISystem for world Change_level
+[2018.11.03-08.33.03:353][231]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/GUI/Change_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.03:353][231]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.03:354][231]LoadErrors: New page: マップをロード中: Change_level.umap
+[2018.11.03-08.33.03:354][231]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.03:354][231]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.03:554][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.03:593][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.03:677][231]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 83.608ミリ秒かかりました。
+[2018.11.03-08.33.03:677][231]LogFileHelpers: Loading map 'Change_level' took 0.325
+[2018.11.03-08.33.07:755][718]LogEditorViewport: Clicking on Actor (LMB): change_BP_C (change_BP)
+[2018.11.03-08.33.07:842][719]LogHttp:Warning: 00000236F03BE500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.33.07:842][719]LogHttp:Warning: 00000236F03BE500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.33.07:842][719]LogHttp:Warning: 00000236F03BE500: libcurl info message cache 1 (Closing connection 0)
+[2018.11.03-08.33.09:936][970]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.03-08.33.30:415][329]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2018.11.03-08.33.30:438][329]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.30:438][329]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.30:439][329]LoadErrors: New page: マップをロード中: Advanced_Lighting.umap
+[2018.11.03-08.33.30:440][329]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.30:440][329]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.30:694][329]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.30:730][329]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.30:816][329]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 86.585ミリ秒かかりました。
+[2018.11.03-08.33.30:816][329]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.379
+[2018.11.03-08.33.32:950][578]LogAIModule: Creating AISystem for world Amatukaze
+[2018.11.03-08.33.32:963][578]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/Amatukzae_model/Amatukaze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.32:963][578]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.32:964][578]LoadErrors: New page: マップをロード中: Amatukaze.umap
+[2018.11.03-08.33.32:965][578]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.32:965][578]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.33:327][578]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.33:367][578]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.33:455][578]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 88.539ミリ秒かかりました。
+[2018.11.03-08.33.33:456][578]LogFileHelpers: Loading map 'Amatukaze' took 0.493
+[2018.11.03-08.33.34:133][656]LogAIModule: Creating AISystem for world Change_level
+[2018.11.03-08.33.34:146][656]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/GUI/Change_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.34:146][656]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.34:147][656]LoadErrors: New page: マップをロード中: Change_level.umap
+[2018.11.03-08.33.34:147][656]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.34:147][656]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.34:458][656]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.34:495][656]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.34:582][656]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 86.655ミリ秒かかりました。
+[2018.11.03-08.33.34:582][656]LogFileHelpers: Loading map 'Change_level' took 0.437
+[2018.11.03-08.33.35:226][730]LogAIModule: Creating AISystem for world ujimoto_level
+[2018.11.03-08.33.35:238][730]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/ujimoto_model_4/ujimoto_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.35:238][730]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.35:239][730]LoadErrors: New page: マップをロード中: ujimoto_level.umap
+[2018.11.03-08.33.35:240][730]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.35:240][730]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.35:697][730]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.35:734][730]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.35:821][730]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 86.817ミリ秒かかりました。
+[2018.11.03-08.33.35:821][730]LogFileHelpers: Loading map 'ujimoto_level' took 0.585
+[2018.11.03-08.33.36:973][784]LogAIModule: Creating AISystem for world StarterMap
+[2018.11.03-08.33.37:031][784]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.37:031][784]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.37:032][784]LoadErrors: New page: マップをロード中: StarterMap.umap
+[2018.11.03-08.33.37:033][784]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.37:033][784]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.37:553][784]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.37:592][784]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.37:708][784]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 114.99ミリ秒かかりました。
+[2018.11.03-08.33.37:708][784]LogFileHelpers: Loading map 'StarterMap' took 0.678
+[2018.11.03-08.33.38:704][838]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.33.38:721][838]Cmd: MAP LOAD FILE="../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-08.33.38:721][838]LightingResults: New page: ライティングのビルド
+[2018.11.03-08.33.38:722][838]LoadErrors: New page: マップをロード中: Minimal_Default.umap
+[2018.11.03-08.33.38:723][838]MapCheck: New page: マップをチェック
+[2018.11.03-08.33.38:724][838]LightingResults: New page: <何も選択されていません>
+[2018.11.03-08.33.39:250][838]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-08.33.39:288][838]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-08.33.39:403][838]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 115.005ミリ秒かかりました。
+[2018.11.03-08.33.39:403][838]LogFileHelpers: Loading map 'Minimal_Default' took 0.684
+[2018.11.03-08.33.44:552][413]LogTemp: Repeting last play command: VR プレビュー
+[2018.11.03-08.33.44:598][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.33.44:598][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.03-08.33.44:598][413]PIE: New page: PIEセッション: Minimal_Default (2018/11/04 2:33:44)
+[2018.11.03-08.33.44:598][413]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.03-08.33.44:603][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004676s)
+[2018.11.03-08.33.44:604][413]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.33.44:604][413]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2018.11.03-08.33.44:604][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005931s)
+[2018.11.03-08.33.44:622][413]LogInit: XAudio2 using 'スピーカー (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-08.33.44:629][413]LogInit: FAudioDevice initialized.
+[2018.11.03-08.33.44:718][413]LogLoad: Game class is 'VR_mode_C'
+[2018.11.03-08.33.44:721][413]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.03-17.33.44
+[2018.11.03-08.33.44:721][413]LogWorld: Bringing up level for play took: 0.001231
+[2018.11.03-08.33.44:767][413]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.11.03-08.33.44:767][413]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.33.44:767][413]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.33.44:767][413]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.33.44:768][413]Cmd: Stereo On
+[2018.11.03-08.33.44:768][413]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.03-08.33.44:768][413]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.03-08.33.44:768][413]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.33.44:773][413]PIE: 情報 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.653のプレイ イン エディタの開始時間
+[2018.11.03-08.33.44:773][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.33.44:834][414]LogRenderer: Reallocating scene render targets to support 3424x1904 NumSamples 1 (Frame:1).
+[2018.11.03-08.34.05:888][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.34.06:050][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.34.08:128][ 34]LogHttp:Warning: 00000236D3BED600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.34.08:128][ 34]LogHttp:Warning: 00000236D3BED600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.34.08:128][ 34]LogHttp:Warning: 00000236D3BED600: libcurl info message cache 1 (Closing connection 1)
+[2018.11.03-08.34.19:767][560]LogTemp: Repeting last play command: VR プレビュー
+[2018.11.03-08.34.19:791][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.34.19:791][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.03-08.34.19:792][560]PIE: New page: PIEセッション: Minimal_Default (2018/11/04 2:34:19)
+[2018.11.03-08.34.19:792][560]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.03-08.34.19:796][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004320s)
+[2018.11.03-08.34.19:797][560]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.34.19:797][560]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.11.03-08.34.19:797][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005486s)
+[2018.11.03-08.34.19:813][560]LogInit: XAudio2 using 'スピーカー (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-08.34.19:822][560]LogInit: FAudioDevice initialized.
+[2018.11.03-08.34.20:431][560]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-B5F70FAF
+[2018.11.03-08.34.20:464][560]LogLoad: Game class is 'VR_mode_C'
+[2018.11.03-08.34.20:466][560]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.03-17.34.20
+[2018.11.03-08.34.20:466][560]LogWorld: Bringing up level for play took: 0.000924
+[2018.11.03-08.34.20:467][560]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.34.20:467][560]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.34.20:467][560]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.34.20:467][560]Cmd: Stereo On
+[2018.11.03-08.34.20:467][560]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.03-08.34.20:467][560]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.03-08.34.20:467][560]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.34.20:471][560]PIE: 情報 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.351のプレイ イン エディタの開始時間
+[2018.11.03-08.34.20:471][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.34.57:814][512]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.34.57:838][514]LogLevel: ActivateLevel /Game/Amatukzae_model/UEDPIE_0_Amatukaze 1 1 0
+[2018.11.03-08.34.57:838][514]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.34.57:875][514]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Amatukzae_model/UEDPIE_0_Amatukaze took (less than) 37.30 ms
+[2018.11.03-08.34.57:877][515]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.34.57:882][516]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.03-08.34.57:882][516]LogLevel: ActivateLevel /Game/Amatukzae_model/UEDPIE_0_Amatukaze 1 1 0
+[2018.11.03-08.34.57:882][516]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.35.19:807][477]LogHttp:Warning: 000002375E1B8E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.35.19:807][477]LogHttp:Warning: 000002375E1B8E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.35.19:807][477]LogHttp:Warning: 000002375E1B8E80: libcurl info message cache 1 (Closing connection 2)
+[2018.11.03-08.36.06:866][690]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.36.06:866][690]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.36.06:867][690]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.03-08.36.06:878][691]LogEngine: Server switch level: ?Restart
+[2018.11.03-08.36.06:878][691]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.03-08.36.06:888][691]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.03-08.36.06:904][691]Cmd: MEM
+[2018.11.03-08.36.06:915][691]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-08.36.06:915][691]LogMemory: Process Physical Memory: 1753.88 MB used, 1868.93 MB peak
+[2018.11.03-08.36.06:915][691]LogMemory: Process Virtual Memory: 4374.58 MB used, 4752.31 MB peak
+[2018.11.03-08.36.06:915][691]LogMemory: Physical Memory: 6556.21 MB used,  9759.90 MB free, 16316.12 MB total
+[2018.11.03-08.36.06:915][691]LogMemory: Virtual Memory: 9709.29 MB used,  9759.90 MB free, 134217728.00 MB total
+[2018.11.03-08.36.06:915][691]LogMemory: 
+[2018.11.03-08.36.06:915][691]Allocator Stats for TBB: (not implemented)
+[2018.11.03-08.36.06:915][691]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.03-08.36.06:920][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004520s)
+[2018.11.03-08.36.06:920][691]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.36.06:921][691]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2018.11.03-08.36.06:921][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005380s)
+[2018.11.03-08.36.06:921][691]LogLoad: Game class is 'VR_mode_C'
+[2018.11.03-08.36.06:923][691]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.03-17.36.06
+[2018.11.03-08.36.06:923][691]LogWorld: Bringing up level for play took: 0.001082
+[2018.11.03-08.36.06:923][691]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.03-08.36.06:924][691]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.36.06:924][691]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.36.06:924][691]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.36.06:924][691]Cmd: Stereo On
+[2018.11.03-08.36.06:924][691]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.03-08.36.06:924][691]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.03-08.36.06:924][691]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.36.06:924][691]LogLoad: Took 0.035638 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.03-08.36.20:559][910]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.20:583][912]LogLevel: ActivateLevel /Game/iSHIHARA_MODEL3/UEDPIE_0_Ishihara_Level2 1 1 0
+[2018.11.03-08.36.20:584][912]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.20:594][913]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.20:606][914]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.03-08.36.20:606][914]LogLevel: ActivateLevel /Game/iSHIHARA_MODEL3/UEDPIE_0_Ishihara_Level2 1 1 0
+[2018.11.03-08.36.20:607][914]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.40:453][691]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.36.40:453][691]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.36.40:453][691]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.03-08.36.40:463][692]LogEngine: Server switch level: ?Restart
+[2018.11.03-08.36.40:463][692]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.03-08.36.40:475][692]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.03-08.36.40:486][692]Cmd: MEM
+[2018.11.03-08.36.40:495][692]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-08.36.40:495][692]LogMemory: Process Physical Memory: 1810.08 MB used, 1868.93 MB peak
+[2018.11.03-08.36.40:495][692]LogMemory: Process Virtual Memory: 4430.01 MB used, 4870.44 MB peak
+[2018.11.03-08.36.40:495][692]LogMemory: Physical Memory: 6601.08 MB used,  9715.04 MB free, 16316.12 MB total
+[2018.11.03-08.36.40:495][692]LogMemory: Virtual Memory: 9839.72 MB used,  9715.04 MB free, 134217728.00 MB total
+[2018.11.03-08.36.40:495][692]LogMemory: 
+[2018.11.03-08.36.40:495][692]Allocator Stats for TBB: (not implemented)
+[2018.11.03-08.36.40:496][692]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.03-08.36.40:500][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004296s)
+[2018.11.03-08.36.40:500][692]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.36.40:501][692]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2018.11.03-08.36.40:501][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005451s)
+[2018.11.03-08.36.40:501][692]LogLoad: Game class is 'VR_mode_C'
+[2018.11.03-08.36.40:503][692]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.03-17.36.40
+[2018.11.03-08.36.40:503][692]LogWorld: Bringing up level for play took: 0.001025
+[2018.11.03-08.36.40:503][692]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.03-08.36.40:503][692]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.36.40:503][692]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.36.40:503][692]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.36.40:504][692]Cmd: Stereo On
+[2018.11.03-08.36.40:504][692]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.03-08.36.40:504][692]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.03-08.36.40:504][692]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.36.40:504][692]LogLoad: Took 0.028806 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.03-08.36.47:769][343]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.47:791][345]LogLevel: ActivateLevel /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level 1 1 0
+[2018.11.03-08.36.47:791][345]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.47:812][345]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level took (less than) 20.26 ms
+[2018.11.03-08.36.47:814][346]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.36.47:815][346]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.03-08.36.47:815][346]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.03-08.36.47:815][346]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.03-08.36.47:815][346]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.03-08.36.47:815][346]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.03-08.36.47:815][346]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.03-08.36.47:815][346]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+	aks_C /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level.Ishihara_Level:PersistentLevel.aks_92
+	Function /Game/Ishihara_model2/aks.aks_C:ExecuteUbergraph_aks:020A
+[2018.11.03-08.36.47:815][346]PIE:Error: エラー ブループリントランタイムエラー: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation from function: 'ExecuteUbergraph_aks' from node: OnFoot を設定 in graph: EventGraph in object: aks with description: Accessed None trying to read property K2Node_DynamicCast_AsAksanimation
+[2018.11.03-08.36.47:818][347]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 0 0 0
+[2018.11.03-08.36.47:818][347]LogLevel: ActivateLevel /Game/Ishihara_model2/UEDPIE_0_Ishihara_Level 1 1 0
+[2018.11.03-08.36.47:818][347]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_Change_level 1 1 0
+[2018.11.03-08.37.07:796][136]LogHttp:Warning: 00000236E7C2F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.37.07:796][136]LogHttp:Warning: 00000236E7C2F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.37.07:796][136]LogHttp:Warning: 00000236E7C2F280: libcurl info message cache 1 (Closing connection 3)
+[2018.11.03-08.37.53:112][193]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.37.53:112][193]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.11.03-08.37.53:112][193]LogGameMode: ProcessServerTravel: ?Restart
+[2018.11.03-08.37.53:123][194]LogEngine: Server switch level: ?Restart
+[2018.11.03-08.37.53:123][194]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Restart
+[2018.11.03-08.37.53:134][194]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2018.11.03-08.37.53:147][194]Cmd: MEM
+[2018.11.03-08.37.53:156][194]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-08.37.53:156][194]LogMemory: Process Physical Memory: 1754.87 MB used, 1868.93 MB peak
+[2018.11.03-08.37.53:156][194]LogMemory: Process Virtual Memory: 4381.46 MB used, 4870.44 MB peak
+[2018.11.03-08.37.53:156][194]LogMemory: Physical Memory: 6545.98 MB used,  9770.14 MB free, 16316.12 MB total
+[2018.11.03-08.37.53:156][194]LogMemory: Virtual Memory: 9812.04 MB used,  9770.14 MB free, 134217728.00 MB total
+[2018.11.03-08.37.53:156][194]LogMemory: 
+[2018.11.03-08.37.53:156][194]Allocator Stats for TBB: (not implemented)
+[2018.11.03-08.37.53:156][194]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.03-08.37.53:160][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003948s)
+[2018.11.03-08.37.53:160][194]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.03-08.37.53:161][194]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2018.11.03-08.37.53:161][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004911s)
+[2018.11.03-08.37.53:161][194]LogLoad: Game class is 'VR_mode_C'
+[2018.11.03-08.37.53:163][194]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.03-17.37.53
+[2018.11.03-08.37.53:163][194]LogWorld: Bringing up level for play took: 0.001006
+[2018.11.03-08.37.53:163][194]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.03-08.37.53:163][194]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.37.53:163][194]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-08.37.53:163][194]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.37.53:164][194]Cmd: Stereo On
+[2018.11.03-08.37.53:164][194]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2018.11.03-08.37.53:164][194]LogLevel: ActivateLevel /Game/GUI/UEDPIE_0_GUI_level 1 1 0
+[2018.11.03-08.37.53:164][194]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-08.37.53:164][194]LogLoad: Took 0.030558 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default)
+[2018.11.03-08.38.07:810][505]LogHttp:Warning: 0000023746388700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.38.07:810][505]LogHttp:Warning: 0000023746388700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.38.07:810][505]LogHttp:Warning: 0000023746388700: libcurl info message cache 1 (Closing connection 4)
+[2018.11.03-08.38.11:028][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.38.11:191][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.03-08.38.11:238][794]LogDialogs:Warning: Suppressed: VRモードではモーションコントローラーを使ってバーチャルリアリティ内でプロジェクト作業を行えます。この機能はまだ開発中で、使用中にバグやクラッシュに遭遇するおそれがあります。
+[2018.11.03-08.38.16:187][804]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2018.11.03-08.38.19:395][893]LogSavePackage: Save=111.33ms
+[2018.11.03-08.38.19:395][893]LogSavePackage: Moving '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default48D905F7457A29168009A6AC4996A01C.tmp' to '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.03-08.38.19:400][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.03-08.38.19:429][893]LogFileHelpers: Saving map 'Minimal_Default' took 0.332
+[2018.11.03-08.38.19:653][893]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2018.11.03-08.38.19:889][894]Cmd: QUIT_EDITOR
+[2018.11.03-08.38.20:157][894]LogExit: Preparing to exit.
+[2018.11.03-08.38.21:275][894]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/' was aborted.
+[2018.11.03-08.38.21:337][894]LogExit: Editor shut down
+[2018.11.03-08.38.21:342][894]LogExit: Transaction tracking system shut down
+[2018.11.03-08.38.21:447][894]LogObj: Freed 0b from 0 cluster array pools.
+[2018.11.03-08.38.21:447][894]LogExit: Object subsystem successfully closed.
+[2018.11.03-08.38.21:490][894]LogD3D11RHI: Shutdown
+[2018.11.03-08.38.21:490][894]LogD3D11RHI: CleanupD3DDevice
+[2018.11.03-08.38.21:494][894]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.03-08.38.21:510][894]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.11.03-08.38.21:510][894]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.11.03-08.38.21:510][894]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.11.03-08.38.21:510][894]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.11.03-08.38.21:510][894]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.11.03-08.38.21:510][894]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.11.03-08.38.21:511][894]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Collections/' was aborted.
+[2018.11.03-08.38.21:511][894]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Content/Developers/densan/Collections/' was aborted.
+[2018.11.03-08.38.21:511][894]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Saved/Collections/' was aborted.
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.11.03-08.38.21:511][894]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.11.03-08.38.21:512][894]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.11.03-08.38.22:308][894]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.11.03-08.38.22:364][894]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.11.03-08.38.22:365][894]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.11.03-08.38.22:365][894]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.11.03-08.38.22:365][894]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.11.03-08.38.22:365][894]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.11.03-08.38.22:365][894]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.11.03-08.38.22:366][894]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.11.03-08.38.22:387][894]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module IM4U (326)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.11.03-08.38.22:388][894]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.11.03-08.38.22:389][894]LogDirectoryWatcher: A directory notification for 'C:/Users/densan/Documents/Unreal Projects/MyProject3/Plugins/IM4U/Binaries/Win64' was aborted.
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.11.03-08.38.22:389][894]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.11.03-08.38.22:390][894]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.11.03-08.38.22:390][894]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.11.03-08.38.22:490][894]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.11.03-08.38.22:591][894]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.11.03-08.38.22:593][894]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.11.03-08.38.22:594][894]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.11.03-08.38.22:596][894]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.11.03-08.38.22:659][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.03-08.38.22:660][894]LogDirectoryWatcher: A directory notification for '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Content/' was aborted.
+[2018.11.03-08.38.22:660][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.03-08.38.22:660][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.11.03-08.38.22:660][894]LogDirectoryWatcher: A directory notification for '../../../../../../Users/densan/Documents/Unreal Projects/MyProject3/Plugins/IM4U/Content/' was aborted.
+[2018.11.03-08.38.22:662][894]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.11.03-08.38.22:663][894]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.11.03-08.38.22:722][894]LogDerivedDataCache: Shutdown
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.11.03-08.38.22:722][894]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.11.03-08.38.22:723][894]LogOnline:Display: Unloading online subsystem: NULL
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.11.03-08.38.22:723][894]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.03-08.38.22:723][894]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.03-08.38.22:723][894]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3D3921B6-4568-AAE8-50B6-FABA4F6C3741%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6440e1da4c2a4657806efb82b0665496%7C233b43acc2594acea471b90123722db2%7C69b368c5-ae85-45e4-9861-dd65847fc230&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.03-08.38.22:723][894]LogHttp:Warning: 0000023716E9DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.03-08.38.22:723][894]LogHttp:Warning: 0000023716E9DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.03-08.38.22:723][894]LogHttp:Warning: 0000023716E9DD80: libcurl info message cache 1 (Closing connection 5)
+[2018.11.03-08.38.22:742][894]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.11.03-08.38.22:743][894]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.03-08.38.22:745][894]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.03-08.38.22:747][894]LogExit: Exiting.
+[2018.11.03-08.38.22:762][894]Log file closed, 11/03/18 17:38:22
